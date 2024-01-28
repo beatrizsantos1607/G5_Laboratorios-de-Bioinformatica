@@ -4,8 +4,8 @@
   <BlastOutput_program>blastp</BlastOutput_program>
   <BlastOutput_version>BLASTP 2.15.0+</BlastOutput_version>
   <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
-  <BlastOutput_db>nr</BlastOutput_db>
-  <BlastOutput_query-ID>Query_7436547</BlastOutput_query-ID>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_2377981</BlastOutput_query-ID>
   <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
   <BlastOutput_query-len>178</BlastOutput_query-len>
   <BlastOutput_param>
@@ -20,22 +20,22 @@
 <BlastOutput_iterations>
 <Iteration>
   <Iteration_iter-num>1</Iteration_iter-num>
-  <Iteration_query-ID>Query_7436547</Iteration_query-ID>
+  <Iteration_query-ID>Query_2377981</Iteration_query-ID>
   <Iteration_query-def>unnamed protein product</Iteration_query-def>
   <Iteration_query-len>178</Iteration_query-len>
 <Iteration_hits>
 <Hit>
   <Hit_num>1</Hit_num>
-  <Hit_id>gb|AAV38450.1|</Hit_id>
-  <Hit_def>interleukin 10, partial [synthetic construct] &gt;gb|AAX36832.1| interleukin 10, partial [synthetic construct] &gt;gb|AAX43106.1| interleukin 10, partial [synthetic construct] &gt;gb|AAX43183.1| interleukin 10, partial [synthetic construct]</Hit_def>
-  <Hit_accession>AAV38450</Hit_accession>
-  <Hit_len>179</Hit_len>
+  <Hit_id>sp|P22301.1|</Hit_id>
+  <Hit_def>RecName: Full=Interleukin-10; Short=IL-10; AltName: Full=Cytokine synthesis inhibitory factor; Short=CSIF; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>P22301</Hit_accession>
+  <Hit_len>178</Hit_len>
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>371.318</Hsp_bit-score>
-      <Hsp_score>952</Hsp_score>
-      <Hsp_evalue>1.89807e-129</Hsp_evalue>
+      <Hsp_bit-score>370.548</Hsp_bit-score>
+      <Hsp_score>950</Hsp_score>
+      <Hsp_evalue>1.99301e-132</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
       <Hsp_query-to>178</Hsp_query-to>
       <Hsp_hit-from>1</Hsp_hit-from>
@@ -54,148 +54,8 @@
 </Hit>
 <Hit>
   <Hit_num>2</Hit_num>
-  <Hit_id>ref|NP_000563.1|</Hit_id>
-  <Hit_def>interleukin-10 isoform 1 precursor [Homo sapiens] &gt;sp|P22301.1| RecName: Full=Interleukin-10; Short=IL-10; AltName: Full=Cytokine synthesis inhibitory factor; Short=CSIF; Flags: Precursor [Homo sapiens] &gt;gb|AAX36387.1| interleukin 10 [synthetic construct] &gt;gb|PSJ20588.1| hypothetical protein CVH10_16755 [Halomonas sp. ND22Bw] &gt;emb|SJX28384.1| unnamed protein product, partial [Human ORFeome Gateway entry vector] &gt;gb|AAA63207.1| interleukin 10 [Homo sapiens] &gt;gb|AAA80104.1| interleukin 10 [Homo sapiens]</Hit_def>
-  <Hit_accession>NP_000563</Hit_accession>
-  <Hit_len>178</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>370.548</Hsp_bit-score>
-      <Hsp_score>950</Hsp_score>
-      <Hsp_evalue>2.77998e-129</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>178</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>178</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>178</Hsp_identity>
-      <Hsp_positive>178</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>178</Hsp_align-len>
-      <Hsp_qseq>MHSSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_qseq>
-      <Hsp_hseq>MHSSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_hseq>
-      <Hsp_midline>MHSSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>3</Hit_num>
-  <Hit_id>gb|AKI71928.1|</Hit_id>
-  <Hit_def>IL10, partial [synthetic construct]</Hit_def>
-  <Hit_accession>AKI71928</Hit_accession>
-  <Hit_len>178</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>369.777</Hsp_bit-score>
-      <Hsp_score>948</Hsp_score>
-      <Hsp_evalue>7.06618e-129</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>178</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>178</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>177</Hsp_identity>
-      <Hsp_positive>178</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>178</Hsp_align-len>
-      <Hsp_qseq>MHSSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_qseq>
-      <Hsp_hseq>MHSSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRYLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_hseq>
-      <Hsp_midline>MHSSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHR+LPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>4</Hit_num>
-  <Hit_id>ref|NP_001129092.2|</Hit_id>
-  <Hit_def>interleukin-10 precursor [Pan troglodytes] &gt;ref|XP_003822966.1| interleukin-10 isoform X2 [Pan paniscus] &gt;ref|XP_016783106.1| interleukin-10 isoform X1 [Pan troglodytes] &gt;gb|PNJ00397.1| IL10 isoform 1 [Pan troglodytes] &gt;tpe|CAA9999834.1| TPA: interferon 2A [Pan troglodytes]</Hit_def>
-  <Hit_accession>NP_001129092</Hit_accession>
-  <Hit_len>178</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>369.007</Hsp_bit-score>
-      <Hsp_score>946</Hsp_score>
-      <Hsp_evalue>1.08411e-128</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>178</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>178</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>177</Hsp_identity>
-      <Hsp_positive>177</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>178</Hsp_align-len>
-      <Hsp_qseq>MHSSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_qseq>
-      <Hsp_hseq>MHSSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKVHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_hseq>
-      <Hsp_midline>MHSSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIK HVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>5</Hit_num>
-  <Hit_id>ref|XP_004028338.1|</Hit_id>
-  <Hit_def>interleukin-10 isoform X2 [Gorilla gorilla gorilla]</Hit_def>
-  <Hit_accession>XP_004028338</Hit_accession>
-  <Hit_len>178</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>368.237</Hsp_bit-score>
-      <Hsp_score>944</Hsp_score>
-      <Hsp_evalue>2.60844e-128</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>178</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>178</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>176</Hsp_identity>
-      <Hsp_positive>177</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>178</Hsp_align-len>
-      <Hsp_qseq>MHSSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_qseq>
-      <Hsp_hseq>MHSSALLCCLVLLTGVRASPGHGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGVYKAMSEFDIFINYIEAYMTMKIRN</Hsp_hseq>
-      <Hsp_midline>MHSSALLCCLVLLTGVRASPG GTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKG+YKAMSEFDIFINYIEAYMTMKIRN</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>6</Hit_num>
-  <Hit_id>gb|AKI71927.1|</Hit_id>
-  <Hit_def>IL10, partial [synthetic construct]</Hit_def>
-  <Hit_accession>AKI71927</Hit_accession>
-  <Hit_len>178</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>367.851</Hsp_bit-score>
-      <Hsp_score>943</Hsp_score>
-      <Hsp_evalue>3.62552e-128</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>178</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>178</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>177</Hsp_identity>
-      <Hsp_positive>177</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>178</Hsp_align-len>
-      <Hsp_qseq>MHSSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_qseq>
-      <Hsp_hseq>MHSSALLCCLVLLTRVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_hseq>
-      <Hsp_midline>MHSSALLCCLVLLT VRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>7</Hit_num>
   <Hit_id>sp|A2T6Z6.1|</Hit_id>
-  <Hit_def>RecName: Full=Interleukin-10; Short=IL-10; AltName: Full=Cytokine synthesis inhibitory factor; Short=CSIF; Flags: Precursor [Pan troglodytes] &gt;gb|ABM91951.1| IL10 [Pan troglodytes]</Hit_def>
+  <Hit_def>RecName: Full=Interleukin-10; Short=IL-10; AltName: Full=Cytokine synthesis inhibitory factor; Short=CSIF; Flags: Precursor [Pan troglodytes]</Hit_def>
   <Hit_accession>A2T6Z6</Hit_accession>
   <Hit_len>178</Hit_len>
   <Hit_hsps>
@@ -203,7 +63,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>367.466</Hsp_bit-score>
       <Hsp_score>942</Hsp_score>
-      <Hsp_evalue>5.03917e-128</Hsp_evalue>
+      <Hsp_evalue>3.61267e-131</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
       <Hsp_query-to>178</Hsp_query-to>
       <Hsp_hit-from>1</Hsp_hit-from>
@@ -221,93 +81,9 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>8</Hit_num>
-  <Hit_id>gb|AAX36831.1|</Hit_id>
-  <Hit_def>interleukin 10, partial [synthetic construct]</Hit_def>
-  <Hit_accession>AAX36831</Hit_accession>
-  <Hit_len>179</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>367.081</Hsp_bit-score>
-      <Hsp_score>941</Hsp_score>
-      <Hsp_evalue>7.58214e-128</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>178</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>178</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>177</Hsp_identity>
-      <Hsp_positive>177</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>178</Hsp_align-len>
-      <Hsp_qseq>MHSSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_qseq>
-      <Hsp_hseq>MHSSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCLRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_hseq>
-      <Hsp_midline>MHSSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRC RFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>9</Hit_num>
-  <Hit_id>emb|CAG46825.1|</Hit_id>
-  <Hit_def>IL10, partial [Homo sapiens]</Hit_def>
-  <Hit_accession>CAG46825</Hit_accession>
-  <Hit_len>178</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>366.696</Hsp_bit-score>
-      <Hsp_score>940</Hsp_score>
-      <Hsp_evalue>1.05123e-127</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>178</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>178</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>177</Hsp_identity>
-      <Hsp_positive>177</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>178</Hsp_align-len>
-      <Hsp_qseq>MHSSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_qseq>
-      <Hsp_hseq>MHSSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCLRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_hseq>
-      <Hsp_midline>MHSSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRC RFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>10</Hit_num>
-  <Hit_id>ref|XP_002809587.2|</Hit_id>
-  <Hit_def>interleukin-10 [Pongo abelii] &gt;ref|XP_054335076.1| interleukin-10 [Pongo pygmaeus] &gt;ref|XP_054335156.1| interleukin-10 [Pongo pygmaeus] &gt;ref|XP_054335256.1| interleukin-10 [Pongo pygmaeus] &gt;gb|PNJ53229.1| IL10 isoform 1 [Pongo abelii]</Hit_def>
-  <Hit_accession>XP_002809587</Hit_accession>
-  <Hit_len>178</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>362.844</Hsp_bit-score>
-      <Hsp_score>930</Hsp_score>
-      <Hsp_evalue>3.021e-126</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>178</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>178</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>174</Hsp_identity>
-      <Hsp_positive>175</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>178</Hsp_align-len>
-      <Hsp_qseq>MHSSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_qseq>
-      <Hsp_hseq>MHSSALLCCLVLLTGVRAGSGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKEHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVQQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_hseq>
-      <Hsp_midline>MHSSALLCCLVLLTGVRA  GQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIK HVNSLGENLKTLRLRLRRCHRFLPCENKSKAV+QVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>11</Hit_num>
+  <Hit_num>3</Hit_num>
   <Hit_id>sp|P79338.1|</Hit_id>
-  <Hit_def>RecName: Full=Interleukin-10; Short=IL-10; AltName: Full=Cytokine synthesis inhibitory factor; Short=CSIF; Flags: Precursor [Macaca fascicularis] &gt;dbj|BAA19132.1| IL-10 precursor [Macaca fascicularis]</Hit_def>
+  <Hit_def>RecName: Full=Interleukin-10; Short=IL-10; AltName: Full=Cytokine synthesis inhibitory factor; Short=CSIF; Flags: Precursor [Macaca fascicularis]</Hit_def>
   <Hit_accession>P79338</Hit_accession>
   <Hit_len>178</Hit_len>
   <Hit_hsps>
@@ -315,7 +91,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>358.992</Hsp_bit-score>
       <Hsp_score>920</Hsp_score>
-      <Hsp_evalue>1.20652e-124</Hsp_evalue>
+      <Hsp_evalue>8.64972e-128</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
       <Hsp_query-to>178</Hsp_query-to>
       <Hsp_hit-from>1</Hsp_hit-from>
@@ -333,45 +109,17 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>12</Hit_num>
-  <Hit_id>ref|XP_003273012.1|</Hit_id>
-  <Hit_def>interleukin-10 [Nomascus leucogenys] &gt;ref|XP_031992902.1| interleukin-10 [Hylobates moloch] &gt;ref|XP_055089852.1| interleukin-10 [Symphalangus syndactylus] &gt;tpe|CAA9999999.1| TPA: interferon 2A [Nomascus leucogenys]</Hit_def>
-  <Hit_accession>XP_003273012</Hit_accession>
+  <Hit_num>4</Hit_num>
+  <Hit_id>sp|P51496.1|</Hit_id>
+  <Hit_def>RecName: Full=Interleukin-10; Short=IL-10; AltName: Full=Cytokine synthesis inhibitory factor; Short=CSIF; Flags: Precursor [Macaca mulatta]</Hit_def>
+  <Hit_accession>P51496</Hit_accession>
   <Hit_len>178</Hit_len>
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>357.066</Hsp_bit-score>
       <Hsp_score>915</Hsp_score>
-      <Hsp_evalue>6.61067e-124</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>178</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>178</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>170</Hsp_identity>
-      <Hsp_positive>174</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>178</Hsp_align-len>
-      <Hsp_qseq>MHSSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_qseq>
-      <Hsp_hseq>MHSSALLCCLVLLTGVRASPGQATQSENSCTHFPGSLPNMLRELRDAFSRVKTFFQMKDQLDNMLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKEHVNSLGEKLKALRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIQN</Hsp_hseq>
-      <Hsp_midline>MHSSALLCCLVLLTGVRASPGQ TQSENSCTHFPG+LPNMLR+LRDAFSRVKTFFQMKDQLDN+LLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIK HVNSLGE LK LRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKI+N</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>13</Hit_num>
-  <Hit_id>ref|NP_001038192.1|</Hit_id>
-  <Hit_def>interleukin-10 precursor [Macaca mulatta] &gt;ref|XP_005540710.1| interleukin-10 [Macaca fascicularis] &gt;ref|XP_007986855.1| interleukin-10 [Chlorocebus sabaeus] &gt;ref|XP_011856544.1| PREDICTED: interleukin-10 [Mandrillus leucophaeus] &gt;ref|XP_011895436.1| PREDICTED: interleukin-10 [Cercocebus atys] &gt;ref|XP_025260416.1| interleukin-10 [Theropithecus gelada] &gt;ref|XP_050638106.1| interleukin-10 isoform X2 [Macaca thibetana thibetana] &gt;sp|P51496.1| RecName: Full=Interleukin-10; Short=IL-10; AltName: Full=Cytokine synthesis inhibitory factor; Short=CSIF; Flags: Precursor [Macaca mulatta] &gt;gb|AAA99975.1| interleukin 10 [Macaca mulatta] &gt;gb|ABI63877.1| interleukin 10 [Macaca mulatta] &gt;gb|ABI63878.1| interleukin 10 [Macaca mulatta] &gt;gb|ABI63879.1| interleukin 10 [Macaca mulatta] &gt;gb|ABI63880.1| interleukin 10 [Macaca mulatta]</Hit_def>
-  <Hit_accession>NP_001038192</Hit_accession>
-  <Hit_len>178</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>357.066</Hsp_bit-score>
-      <Hsp_score>915</Hsp_score>
-      <Hsp_evalue>6.98353e-124</Hsp_evalue>
+      <Hsp_evalue>5.00661e-127</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
       <Hsp_query-to>178</Hsp_query-to>
       <Hsp_hit-from>1</Hsp_hit-from>
@@ -389,45 +137,17 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>14</Hit_num>
-  <Hit_id>ref|XP_012314626.1|</Hit_id>
-  <Hit_def>interleukin-10 [Aotus nancymaae]</Hit_def>
-  <Hit_accession>XP_012314626</Hit_accession>
-  <Hit_len>178</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>338.191</Hsp_bit-score>
-      <Hsp_score>866</Hsp_score>
-      <Hsp_evalue>1.70001e-116</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>178</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>178</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>160</Hsp_identity>
-      <Hsp_positive>168</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>178</Hsp_align-len>
-      <Hsp_qseq>MHSSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_qseq>
-      <Hsp_hseq>MHSSALLCCLVFLTGVRASPGQGTQSENSCTHFPGNLPHMLRELRVAFSRVKTFFQKKDQLDSMLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENHDPDVKEHVNSLGEKLKTFRLRLRRCHRFLPCENKSKAVAQVKNAVSKLQEKGIYKAMSEFDIFIDYIEAYMTMKTQN</Hsp_hseq>
-      <Hsp_midline>MHSSALLCCLV LTGVRASPGQGTQSENSCTHFPGNLP+MLR+LR AFSRVKTFFQ KDQLD++LLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAEN DPD+K HVNSLGE LKT RLRLRRCHRFLPCENKSKAV QVKNA +KLQEKGIYKAMSEFDIFI+YIEAYMTMK +N</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>15</Hit_num>
-  <Hit_id>ref|XP_002760779.1|</Hit_id>
-  <Hit_def>interleukin-10 [Callithrix jacchus] &gt;sp|Q0Z972.1| RecName: Full=Interleukin-10; Short=IL-10; AltName: Full=Cytokine synthesis inhibitory factor; Short=CSIF; Flags: Precursor [Callithrix jacchus] &gt;gb|ABG54456.1| interleukin 10 [Callithrix jacchus] &gt;tpe|CAB0000095.1| TPA: interferon 2A [Callithrix jacchus]</Hit_def>
-  <Hit_accession>XP_002760779</Hit_accession>
+  <Hit_num>5</Hit_num>
+  <Hit_id>sp|Q0Z972.1|</Hit_id>
+  <Hit_def>RecName: Full=Interleukin-10; Short=IL-10; AltName: Full=Cytokine synthesis inhibitory factor; Short=CSIF; Flags: Precursor [Callithrix jacchus]</Hit_def>
+  <Hit_accession>Q0Z972</Hit_accession>
   <Hit_len>178</Hit_len>
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>336.265</Hsp_bit-score>
       <Hsp_score>861</Hsp_score>
-      <Hsp_evalue>1.29406e-115</Hsp_evalue>
+      <Hsp_evalue>9.27731e-119</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
       <Hsp_query-to>178</Hsp_query-to>
       <Hsp_hit-from>1</Hsp_hit-from>
@@ -445,73 +165,17 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>16</Hit_num>
-  <Hit_id>ref|XP_017380978.1|</Hit_id>
-  <Hit_def>interleukin-10 [Cebus imitator]</Hit_def>
-  <Hit_accession>XP_017380978</Hit_accession>
-  <Hit_len>178</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>335.88</Hsp_bit-score>
-      <Hsp_score>860</Hsp_score>
-      <Hsp_evalue>1.89986e-115</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>178</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>178</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>157</Hsp_identity>
-      <Hsp_positive>168</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>178</Hsp_align-len>
-      <Hsp_qseq>MHSSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_qseq>
-      <Hsp_hseq>MHSSALLCCLVFLTGVRASPGQGTQSENSCTHFPGSLPHMLRELRVAFSRVKTFFQKKDQLDSMLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENHDPDVKVHVNSLGEKLKTFRLRLRRCHRFLPCENKSKAVAQVKDAVSKLQEKGVYKAMSEFDIFIDYIEAYMTMKTQN</Hsp_hseq>
-      <Hsp_midline>MHSSALLCCLV LTGVRASPGQGTQSENSCTHFPG+LP+MLR+LR AFSRVKTFFQ KDQLD++LLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAEN DPD+K HVNSLGE LKT RLRLRRCHRFLPCENKSKAV QVK+A +KLQEKG+YKAMSEFDIFI+YIEAYMTMK +N</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>17</Hit_num>
-  <Hit_id>pdb|1INR|A</Hit_id>
-  <Hit_def>Chain A, Interleukin-10 [Homo sapiens] &gt;pdb|1J7V|L Chain L, INTERLEUKIN-10 [Homo sapiens] &gt;pdb|1Y6K|L Chain L, Interleukin-10 [Homo sapiens] &gt;pdb|2H24|A Chain A, Interleukin-10 [Homo sapiens] &gt;pdb|2ILK|A Chain A, Interleukin-10 [Homo sapiens] &gt;gb|AAC03534.1| interleukin 10, partial [Homo sapiens]</Hit_def>
-  <Hit_accession>1INR_A</Hit_accession>
-  <Hit_len>160</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>334.724</Hsp_bit-score>
-      <Hsp_score>857</Hsp_score>
-      <Hsp_evalue>2.90103e-115</Hsp_evalue>
-      <Hsp_query-from>19</Hsp_query-from>
-      <Hsp_query-to>178</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>160</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>160</Hsp_identity>
-      <Hsp_positive>160</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>160</Hsp_align-len>
-      <Hsp_qseq>SPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_qseq>
-      <Hsp_hseq>SPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_hseq>
-      <Hsp_midline>SPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>18</Hit_num>
-  <Hit_id>ref|XP_003930485.2|</Hit_id>
-  <Hit_def>interleukin-10 [Saimiri boliviensis boliviensis] &gt;sp|Q8MKG9.1| RecName: Full=Interleukin-10; Short=IL-10; AltName: Full=Cytokine synthesis inhibitory factor; Short=CSIF; Flags: Precursor [Saimiri sciureus] &gt;gb|AAK92045.1| interleukin-10 [Saimiri sciureus]</Hit_def>
-  <Hit_accession>XP_003930485</Hit_accession>
+  <Hit_num>6</Hit_num>
+  <Hit_id>sp|Q8MKG9.1|</Hit_id>
+  <Hit_def>RecName: Full=Interleukin-10; Short=IL-10; AltName: Full=Cytokine synthesis inhibitory factor; Short=CSIF; Flags: Precursor [Saimiri sciureus]</Hit_def>
+  <Hit_accession>Q8MKG9</Hit_accession>
   <Hit_len>178</Hit_len>
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>334.724</Hsp_bit-score>
       <Hsp_score>857</Hsp_score>
-      <Hsp_evalue>4.23204e-115</Hsp_evalue>
+      <Hsp_evalue>3.03402e-118</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
       <Hsp_query-to>178</Hsp_query-to>
       <Hsp_hit-from>1</Hsp_hit-from>
@@ -529,129 +193,17 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>19</Hit_num>
-  <Hit_id>gb|KAK2086411.1|</Hit_id>
-  <Hit_def>Interleukin-10 [Saguinus oedipus]</Hit_def>
-  <Hit_accession>KAK2086411</Hit_accession>
-  <Hit_len>178</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>333.954</Hsp_bit-score>
-      <Hsp_score>855</Hsp_score>
-      <Hsp_evalue>9.1218e-115</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>178</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>178</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>159</Hsp_identity>
-      <Hsp_positive>167</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>178</Hsp_align-len>
-      <Hsp_qseq>MHSSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_qseq>
-      <Hsp_hseq>MHSSALLCCLVFLTGVRASPGQGTQSENSCTHFSGSLPHMLRELRVAFSRVKTFFQKKDQLDSMLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENHDPDIKEHVNSLGEKLKTFRLRLRRCHRFLPCENKSKAVVQVKNAVSKLQEKGIYKAMSEFDIFIDYIEAYMTMKTQN</Hsp_hseq>
-      <Hsp_midline>MHSSALLCCLV LTGVRASPGQGTQSENSCTHF G+LP+MLR+LR AFSRVKTFFQ KDQLD++LLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAEN DPDIK HVNSLGE LKT RLRLRRCHRFLPCENKSKAV QVKNA +KLQEKGIYKAMSEFDIFI+YIEAYMTMK +N</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>20</Hit_num>
-  <Hit_id>ref|XP_032144926.1|</Hit_id>
-  <Hit_def>interleukin-10 [Sapajus apella]</Hit_def>
-  <Hit_accession>XP_032144926</Hit_accession>
-  <Hit_len>178</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>333.183</Hsp_bit-score>
-      <Hsp_score>853</Hsp_score>
-      <Hsp_evalue>1.84086e-114</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>178</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>178</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>156</Hsp_identity>
-      <Hsp_positive>167</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>178</Hsp_align-len>
-      <Hsp_qseq>MHSSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_qseq>
-      <Hsp_hseq>MHSSALLCCLVFLTGVRASPGQGTQSENSCTHFPGSLPHMLRELRVAFGRVKTFFQKKDQLDSMLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENHDPDVKVHVNSLGEKLKTFRLRLRRCHRFLPCENKSKAVAQVKDAVSKLQEKGVYKAMSEFDIFIDYIEAYMTMKTQN</Hsp_hseq>
-      <Hsp_midline>MHSSALLCCLV LTGVRASPGQGTQSENSCTHFPG+LP+MLR+LR AF RVKTFFQ KDQLD++LLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAEN DPD+K HVNSLGE LKT RLRLRRCHRFLPCENKSKAV QVK+A +KLQEKG+YKAMSEFDIFI+YIEAYMTMK +N</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>21</Hit_num>
-  <Hit_id>gb|ABI63889.1|</Hit_id>
-  <Hit_def>interleukin 10, partial [Macaca mulatta]</Hit_def>
-  <Hit_accession>ABI63889</Hit_accession>
-  <Hit_len>162</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>325.479</Hsp_bit-score>
-      <Hsp_score>833</Hsp_score>
-      <Hsp_evalue>1.27381e-111</Hsp_evalue>
-      <Hsp_query-from>7</Hsp_query-from>
-      <Hsp_query-to>168</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>162</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>155</Hsp_identity>
-      <Hsp_positive>159</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>162</Hsp_align-len>
-      <Hsp_qseq>LCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYI</Hsp_qseq>
-      <Hsp_hseq>LCCLVLLTGVRASPGQGTQSENSCTRFPGNLPHMLRDLRDAFSRVKTFFQMKDQLDNILLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENHDPDIKEHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFSKLQEKGVYKAMSEFDIFINYI</Hsp_hseq>
-      <Hsp_midline>LCCLVLLTGVRASPGQGTQSENSCT FPGNLP+MLRDLRDAFSRVKTFFQMKDQLDN+LLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAEN DPDIK HVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAF+KLQEKG+YKAMSEFDIFINYI</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>22</Hit_num>
-  <Hit_id>pdb|6X93|A</Hit_id>
-  <Hit_def>Chain A, Interleukin-10 [Homo sapiens] &gt;pdb|6X93|D Chain D, Interleukin-10 [Homo sapiens]</Hit_def>
-  <Hit_accession>6X93_A</Hit_accession>
-  <Hit_len>160</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>324.324</Hsp_bit-score>
-      <Hsp_score>830</Hsp_score>
-      <Hsp_evalue>3.01928e-111</Hsp_evalue>
-      <Hsp_query-from>19</Hsp_query-from>
-      <Hsp_query-to>178</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>160</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>156</Hsp_identity>
-      <Hsp_positive>156</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>160</Hsp_align-len>
-      <Hsp_qseq>SPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_qseq>
-      <Hsp_hseq>SPGQGTQSENSCTHFPGYLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVQSLGENLKDLRLWLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_hseq>
-      <Hsp_midline>SPGQGTQSENSCTHFPG LPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHV SLGENLK LRL LRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>23</Hit_num>
-  <Hit_id>ref|XP_003893246.1|</Hit_id>
-  <Hit_def>interleukin-10 [Papio anubis] &gt;sp|Q5Q0V6.1| RecName: Full=Interleukin-10; Short=IL-10; AltName: Full=Cytokine synthesis inhibitory factor; Short=CSIF; Flags: Precursor [Papio hamadryas] &gt;gb|AAV85009.1| interleukin 10 [Papio hamadryas]</Hit_def>
-  <Hit_accession>XP_003893246</Hit_accession>
+  <Hit_num>7</Hit_num>
+  <Hit_id>sp|Q5Q0V6.1|</Hit_id>
+  <Hit_def>RecName: Full=Interleukin-10; Short=IL-10; AltName: Full=Cytokine synthesis inhibitory factor; Short=CSIF; Flags: Precursor [Papio hamadryas]</Hit_def>
+  <Hit_accession>Q5Q0V6</Hit_accession>
   <Hit_len>178</Hit_len>
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>319.316</Hsp_bit-score>
       <Hsp_score>817</Hsp_score>
-      <Hsp_evalue>5.3072e-109</Hsp_evalue>
+      <Hsp_evalue>3.80482e-112</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
       <Hsp_query-to>178</Hsp_query-to>
       <Hsp_hit-from>1</Hsp_hit-from>
@@ -669,9 +221,9 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>24</Hit_num>
+  <Hit_num>8</Hit_num>
   <Hit_id>sp|P46651.1|</Hit_id>
-  <Hit_def>RecName: Full=Interleukin-10; Short=IL-10; AltName: Full=Cytokine synthesis inhibitory factor; Short=CSIF; Flags: Precursor [Cercocebus atys] &gt;gb|AAA99970.1| interleukin 10 [Cercocebus torquatus]</Hit_def>
+  <Hit_def>RecName: Full=Interleukin-10; Short=IL-10; AltName: Full=Cytokine synthesis inhibitory factor; Short=CSIF; Flags: Precursor [Cercocebus atys]</Hit_def>
   <Hit_accession>P46651</Hit_accession>
   <Hit_len>178</Hit_len>
   <Hit_hsps>
@@ -679,7 +231,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>318.546</Hsp_bit-score>
       <Hsp_score>815</Hsp_score>
-      <Hsp_evalue>1.16912e-108</Hsp_evalue>
+      <Hsp_evalue>8.38164e-112</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
       <Hsp_query-to>178</Hsp_query-to>
       <Hsp_hit-from>1</Hsp_hit-from>
@@ -697,45 +249,17 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>25</Hit_num>
-  <Hit_id>gb|AFI70769.1|</Hit_id>
-  <Hit_def>interleukin-10 [Equus caballus]</Hit_def>
-  <Hit_accession>AFI70769</Hit_accession>
+  <Hit_num>9</Hit_num>
+  <Hit_id>sp|P51497.1|</Hit_id>
+  <Hit_def>RecName: Full=Interleukin-10; Short=IL-10; AltName: Full=Cytokine synthesis inhibitory factor; Short=CSIF; Flags: Precursor [Macaca nemestrina]</Hit_def>
+  <Hit_accession>P51497</Hit_accession>
   <Hit_len>178</Hit_len>
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>318.161</Hsp_bit-score>
       <Hsp_score>814</Hsp_score>
-      <Hsp_evalue>1.66074e-108</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>178</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>178</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>151</Hsp_identity>
-      <Hsp_positive>163</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>178</Hsp_align-len>
-      <Hsp_qseq>MHSSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_qseq>
-      <Hsp_hseq>MHSSSLLCCLVFLAGVGASRDRGTQSENSCTHFPTSLPHMLHELRAAFSRVKTFFQMKDQLDNMLLNGSLLEDFKGYLGCQALSEMIQFYLEEVMPQAENHGPDIKEHVNSLGEKLKTLRVRLRRCHRFLPCENKSKAVEQVKSAFSKLQEKGVYKAMSEFDIFINYIEAYMTTKMKN</Hsp_hseq>
-      <Hsp_midline>MHSS+LLCCLV L GV AS  +GTQSENSCTHFP +LP+ML +LR AFSRVKTFFQMKDQLDN+LL  SLLEDFKGYLGCQALSEMIQFYLEEVMPQAEN  PDIK HVNSLGE LKTLR+RLRRCHRFLPCENKSKAVEQVK+AF+KLQEKG+YKAMSEFDIFINYIEAYMT K++N</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>26</Hit_num>
-  <Hit_id>ref|NP_001292825.1|</Hit_id>
-  <Hit_def>interleukin-10 precursor [Macaca nemestrina] &gt;sp|P51497.1| RecName: Full=Interleukin-10; Short=IL-10; AltName: Full=Cytokine synthesis inhibitory factor; Short=CSIF; Flags: Precursor [Macaca nemestrina] &gt;gb|AAA99976.1| interleukin 10 [Macaca nemestrina]</Hit_def>
-  <Hit_accession>NP_001292825</Hit_accession>
-  <Hit_len>178</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>318.161</Hsp_bit-score>
-      <Hsp_score>814</Hsp_score>
-      <Hsp_evalue>1.95775e-108</Hsp_evalue>
+      <Hsp_evalue>1.40355e-111</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
       <Hsp_query-to>178</Hsp_query-to>
       <Hsp_hit-from>1</Hsp_hit-from>
@@ -753,157 +277,17 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>27</Hit_num>
-  <Hit_id>ref|XP_008053887.1|</Hit_id>
-  <Hit_def>interleukin-10 [Carlito syrichta]</Hit_def>
-  <Hit_accession>XP_008053887</Hit_accession>
-  <Hit_len>178</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>317.775</Hsp_bit-score>
-      <Hsp_score>813</Hsp_score>
-      <Hsp_evalue>2.33334e-108</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>178</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>178</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>150</Hsp_identity>
-      <Hsp_positive>163</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>178</Hsp_align-len>
-      <Hsp_qseq>MHSSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_qseq>
-      <Hsp_hseq>MQSSALLCCLVFLAGVRASRDQGTPSENSCIYFSSNLPHMLRELRAAFSRVKTFFQMKDKLDNILLNESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENHDPDVKEHVNSLGEKLKTLRMRLRRCHQFLPCENKSKAVQQVKNAFSKLQEQGVYKAMSEFDIFINYIEAYMTMKTKN</Hsp_hseq>
-      <Hsp_midline>M SSALLCCLV L GVRAS  QGT SENSC +F  NLP+MLR+LR AFSRVKTFFQMKD+LDN+LL ESLLEDFKGYLGCQALSEMIQFYLEEVMPQAEN DPD+K HVNSLGE LKTLR+RLRRCH+FLPCENKSKAV+QVKNAF+KLQE+G+YKAMSEFDIFINYIEAYMTMK +N</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>28</Hit_num>
-  <Hit_id>gb|ABI63893.1|</Hit_id>
-  <Hit_def>interleukin 10 [Macaca mulatta] &gt;gb|ABI63907.1| interleukin 10 [Macaca mulatta]</Hit_def>
-  <Hit_accession>ABI63893</Hit_accession>
-  <Hit_len>178</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>317.39</Hsp_bit-score>
-      <Hsp_score>812</Hsp_score>
-      <Hsp_evalue>3.27834e-108</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>178</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>178</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>169</Hsp_identity>
-      <Hsp_positive>174</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>178</Hsp_align-len>
-      <Hsp_qseq>MHSSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_qseq>
-      <Hsp_hseq>MHSSALLCCLVLLTGVRASPGQGTQSENSCTRFPXNLPHMLRDLRDAFSRVKTFFQMKDQLDNILLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENHDPDIKEHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFSKLQEKGVYKAMSEFDIFINYIEAYMTMKIQN</Hsp_hseq>
-      <Hsp_midline>MHSSALLCCLVLLTGVRASPGQGTQSENSCT FP NLP+MLRDLRDAFSRVKTFFQMKDQLDN+LLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAEN DPDIK HVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAF+KLQEKG+YKAMSEFDIFINYIEAYMTMKI+N</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>29</Hit_num>
-  <Hit_id>ref|XP_010360805.1|</Hit_id>
-  <Hit_def>interleukin-10 [Rhinopithecus roxellana] &gt;ref|XP_017736324.1| PREDICTED: interleukin-10 [Rhinopithecus bieti]</Hit_def>
-  <Hit_accession>XP_010360805</Hit_accession>
-  <Hit_len>178</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>316.235</Hsp_bit-score>
-      <Hsp_score>809</Hsp_score>
-      <Hsp_evalue>9.29401e-108</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>178</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>178</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>167</Hsp_identity>
-      <Hsp_positive>174</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>178</Hsp_align-len>
-      <Hsp_qseq>MHSSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_qseq>
-      <Hsp_hseq>MHSSALLCCLVLLTGVRASPGQGTHSENSCTRFPGNVPHMLRDLRDAFSRVKTFFQMKDQLDNILLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENHDPDIKEHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFSKLQEKGVYKAMSEFDIFINYIEAYMTMKMQN</Hsp_hseq>
-      <Hsp_midline>MHSSALLCCLVLLTGVRASPGQGT SENSCT FPGN+P+MLRDLRDAFSRVKTFFQMKDQLDN+LLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAEN DPDIK HVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAF+KLQEKG+YKAMSEFDIFINYIEAYMTMK++N</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>30</Hit_num>
-  <Hit_id>pdb|1ILK|A</Hit_id>
-  <Hit_def>Chain A, Interleukin-10 [Homo sapiens]</Hit_def>
-  <Hit_accession>1ILK_A</Hit_accession>
-  <Hit_len>151</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>315.079</Hsp_bit-score>
-      <Hsp_score>806</Hsp_score>
-      <Hsp_evalue>1.18981e-107</Hsp_evalue>
-      <Hsp_query-from>28</Hsp_query-from>
-      <Hsp_query-to>178</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>151</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>151</Hsp_identity>
-      <Hsp_positive>151</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>151</Hsp_align-len>
-      <Hsp_qseq>NSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_qseq>
-      <Hsp_hseq>NSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_hseq>
-      <Hsp_midline>NSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>31</Hit_num>
-  <Hit_id>ref|XP_033056471.1|</Hit_id>
-  <Hit_def>interleukin-10 [Trachypithecus francoisi]</Hit_def>
-  <Hit_accession>XP_033056471</Hit_accession>
-  <Hit_len>178</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>315.849</Hsp_bit-score>
-      <Hsp_score>808</Hsp_score>
-      <Hsp_evalue>1.22263e-107</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>178</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>178</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>167</Hsp_identity>
-      <Hsp_positive>174</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>178</Hsp_align-len>
-      <Hsp_qseq>MHSSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_qseq>
-      <Hsp_hseq>MHSSALLCCLVLLTGVRASPGQGTHSENSCTRFPGNVPHMLRDLRDAFRRVKTFFQMKDQLDNILLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKEHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFSKLQEKGVYKAMSEFDIFINYIEAYMTMKMQN</Hsp_hseq>
-      <Hsp_midline>MHSSALLCCLVLLTGVRASPGQGT SENSCT FPGN+P+MLRDLRDAF RVKTFFQMKDQLDN+LLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIK HVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAF+KLQEKG+YKAMSEFDIFINYIEAYMTMK++N</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>32</Hit_num>
-  <Hit_id>ref|NP_001075959.1|</Hit_id>
-  <Hit_def>interleukin-10 precursor [Equus caballus] &gt;sp|Q28374.1| RecName: Full=Interleukin-10; Short=IL-10; AltName: Full=Cytokine synthesis inhibitory factor; Short=CSIF; Flags: Precursor [Equus caballus] &gt;gb|AAA79997.1| interleukin-10 [Equus caballus] &gt;gb|ABZ91980.1| interleukin-10 [Equus caballus]</Hit_def>
-  <Hit_accession>NP_001075959</Hit_accession>
+  <Hit_num>10</Hit_num>
+  <Hit_id>sp|Q28374.1|</Hit_id>
+  <Hit_def>RecName: Full=Interleukin-10; Short=IL-10; AltName: Full=Cytokine synthesis inhibitory factor; Short=CSIF; Flags: Precursor [Equus caballus]</Hit_def>
+  <Hit_accession>Q28374</Hit_accession>
   <Hit_len>178</Hit_len>
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>315.464</Hsp_bit-score>
       <Hsp_score>807</Hsp_score>
-      <Hsp_evalue>1.75587e-107</Hsp_evalue>
+      <Hsp_evalue>1.25882e-110</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
       <Hsp_query-to>178</Hsp_query-to>
       <Hsp_hit-from>1</Hsp_hit-from>
@@ -921,514 +305,570 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>33</Hit_num>
-  <Hit_id>ref|XP_023042793.1|</Hit_id>
-  <Hit_def>interleukin-10 [Piliocolobus tephrosceles]</Hit_def>
-  <Hit_accession>XP_023042793</Hit_accession>
-  <Hit_len>186</Hit_len>
+  <Hit_num>11</Hit_num>
+  <Hit_id>sp|Q9TSJ4.1|</Hit_id>
+  <Hit_def>RecName: Full=Interleukin-10; Short=IL-10; AltName: Full=Cytokine synthesis inhibitory factor; Short=CSIF; Flags: Precursor [Oryctolagus cuniculus]</Hit_def>
+  <Hit_accession>Q9TSJ4</Hit_accession>
+  <Hit_len>178</Hit_len>
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>315.849</Hsp_bit-score>
-      <Hsp_score>808</Hsp_score>
-      <Hsp_evalue>2.07889e-107</Hsp_evalue>
+      <Hsp_bit-score>299.671</Hsp_bit-score>
+      <Hsp_score>766</Hsp_score>
+      <Hsp_evalue>2.75158e-104</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
       <Hsp_query-to>178</Hsp_query-to>
       <Hsp_hit-from>1</Hsp_hit-from>
       <Hsp_hit-to>178</Hsp_hit-to>
       <Hsp_query-frame>0</Hsp_query-frame>
       <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>167</Hsp_identity>
-      <Hsp_positive>174</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>178</Hsp_align-len>
-      <Hsp_qseq>MHSSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_qseq>
-      <Hsp_hseq>MHSSALLCCLVLLTGVRASPGQGTHSENSCTRFPGNVPHMLRDLRDAFSRVKTFFQMKDQLDNILLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENHDPDIKEHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFSKLQEKGVYKAMSEFDIFINYIEAYMTMKMQN</Hsp_hseq>
-      <Hsp_midline>MHSSALLCCLVLLTGVRASPGQGT SENSCT FPGN+P+MLRDLRDAFSRVKTFFQMKDQLDN+LLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAEN DPDIK HVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAF+KLQEKG+YKAMSEFDIFINYIEAYMTMK++N</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>34</Hit_num>
-  <Hit_id>ref|XP_011792865.1|</Hit_id>
-  <Hit_def>PREDICTED: interleukin-10 [Colobus angolensis palliatus]</Hit_def>
-  <Hit_accession>XP_011792865</Hit_accession>
-  <Hit_len>178</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>314.309</Hsp_bit-score>
-      <Hsp_score>804</Hsp_score>
-      <Hsp_evalue>5.31635e-107</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>177</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>177</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>166</Hsp_identity>
-      <Hsp_positive>173</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>177</Hsp_align-len>
-      <Hsp_qseq>MHSSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIR</Hsp_qseq>
-      <Hsp_hseq>MHSSALLCCLVLLTGVRASPGQGTHSENSCTRFPGNVPHMLRDLRDAFSRVKTFFQMKDQLDNILLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENHDPDIKEHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFSKLQEKGVYKAMSEFDIFINYIEAYMTMKMQ</Hsp_hseq>
-      <Hsp_midline>MHSSALLCCLVLLTGVRASPGQGT SENSCT FPGN+P+MLRDLRDAFSRVKTFFQMKDQLDN+LLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAEN DPDIK HVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAF+KLQEKG+YKAMSEFDIFINYIEAYMTMK++</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>35</Hit_num>
-  <Hit_id>ref|XP_006754445.1|</Hit_id>
-  <Hit_def>PREDICTED: interleukin-10 [Myotis davidii] &gt;gb|ELK37201.1| Interleukin-10 [Myotis davidii]</Hit_def>
-  <Hit_accession>XP_006754445</Hit_accession>
-  <Hit_len>178</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>313.153</Hsp_bit-score>
-      <Hsp_score>801</Hsp_score>
-      <Hsp_evalue>1.73808e-106</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>178</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>178</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>150</Hsp_identity>
-      <Hsp_positive>162</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>178</Hsp_align-len>
-      <Hsp_qseq>MHSSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_qseq>
-      <Hsp_hseq>MPSSALLCCLVFLAGMGASPAQGTPSENSCTHFSTSLPHMLRELRAAFNRVKTFFQMKDQLDNMLLNGSLLEDFKGYLGCQALSEMIQFYLEEVMPQAETQGPDIKEPVNSLGEKLKTLRLQLRRCHRFLPCENKSKAVEQVKSAFNKLQERGVYKAMSEFDIFINYIEAYMTMKMKN</Hsp_hseq>
-      <Hsp_midline>M SSALLCCLV L G+ ASP QGT SENSCTHF  +LP+MLR+LR AF+RVKTFFQMKDQLDN+LL  SLLEDFKGYLGCQALSEMIQFYLEEVMPQAE Q PDIK  VNSLGE LKTLRL+LRRCHRFLPCENKSKAVEQVK+AFNKLQE+G+YKAMSEFDIFINYIEAYMTMK++N</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>36</Hit_num>
-  <Hit_id>pdb|1LK3|A</Hit_id>
-  <Hit_def>Chain A, Interleukin-10 [Homo sapiens] &gt;pdb|1LK3|B Chain B, Interleukin-10 [Homo sapiens]</Hit_def>
-  <Hit_accession>1LK3_A</Hit_accession>
-  <Hit_len>160</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>311.997</Hsp_bit-score>
-      <Hsp_score>798</Hsp_score>
-      <Hsp_evalue>2.60842e-106</Hsp_evalue>
-      <Hsp_query-from>26</Hsp_query-from>
-      <Hsp_query-to>178</Hsp_query-to>
-      <Hsp_hit-from>2</Hsp_hit-from>
-      <Hsp_hit-to>160</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>153</Hsp_identity>
-      <Hsp_positive>153</Hsp_positive>
-      <Hsp_gaps>6</Hsp_gaps>
-      <Hsp_align-len>159</Hsp_align-len>
-      <Hsp_qseq>SENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCEN------KSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_qseq>
-      <Hsp_hseq>SENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENGGGSGGKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_hseq>
-      <Hsp_midline>SENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCEN      KSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>37</Hit_num>
-  <Hit_id>ref|XP_008506686.1|</Hit_id>
-  <Hit_def>PREDICTED: interleukin-10 isoform X3 [Equus przewalskii]</Hit_def>
-  <Hit_accession>XP_008506686</Hit_accession>
-  <Hit_len>249</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>314.309</Hsp_bit-score>
-      <Hsp_score>804</Hsp_score>
-      <Hsp_evalue>5.88811e-106</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>178</Hsp_query-to>
-      <Hsp_hit-from>72</Hsp_hit-from>
-      <Hsp_hit-to>249</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>150</Hsp_identity>
-      <Hsp_positive>162</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>178</Hsp_align-len>
-      <Hsp_qseq>MHSSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_qseq>
-      <Hsp_hseq>MPSAALLCCLVFLAGVGASRDRGTQSENSCTHFPTSLPHMLHELRAAFSRVKTFFQMKDQLDNMLLNGSLLEDFKGYLGCQALSEMIQFYLEEVMPQAENHGPDIKEHVNSLGEKLKTLRVRLRRCHRFLPCENKSKAVEQVKSAFSKLQEKGVYKAMSEFDIFINYIEAYMTTKMKN</Hsp_hseq>
-      <Hsp_midline>M S+ALLCCLV L GV AS  +GTQSENSCTHFP +LP+ML +LR AFSRVKTFFQMKDQLDN+LL  SLLEDFKGYLGCQALSEMIQFYLEEVMPQAEN  PDIK HVNSLGE LKTLR+RLRRCHRFLPCENKSKAVEQVK+AF+KLQEKG+YKAMSEFDIFINYIEAYMT K++N</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>38</Hit_num>
-  <Hit_id>ref|XP_046539742.1|</Hit_id>
-  <Hit_def>interleukin-10 [Equus quagga]</Hit_def>
-  <Hit_accession>XP_046539742</Hit_accession>
-  <Hit_len>249</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>314.309</Hsp_bit-score>
-      <Hsp_score>804</Hsp_score>
-      <Hsp_evalue>6.21959e-106</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>178</Hsp_query-to>
-      <Hsp_hit-from>72</Hsp_hit-from>
-      <Hsp_hit-to>249</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>150</Hsp_identity>
-      <Hsp_positive>162</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>178</Hsp_align-len>
-      <Hsp_qseq>MHSSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_qseq>
-      <Hsp_hseq>MPSAALLCCLVFLAGVGASRDRGTQSENSCTHFPTSLPHMLHELRAAFSRVKTFFQMKDQLDNMLLNGSLLEDFKGYLGCQALSEMIQFYLEEVMPQAENHGPDIKEHVNSLGEKLKTLRVRLRRCHRFLPCENKSKAVEQVKSAFSKLQEKGVYKAMSEFDIFINYIEAYMTTKMKN</Hsp_hseq>
-      <Hsp_midline>M S+ALLCCLV L GV AS  +GTQSENSCTHFP +LP+ML +LR AFSRVKTFFQMKDQLDN+LL  SLLEDFKGYLGCQALSEMIQFYLEEVMPQAEN  PDIK HVNSLGE LKTLR+RLRRCHRFLPCENKSKAVEQVK+AF+KLQEKG+YKAMSEFDIFINYIEAYMT K++N</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>39</Hit_num>
-  <Hit_id>ref|XP_044614621.1|</Hit_id>
-  <Hit_def>interleukin-10 [Equus asinus]</Hit_def>
-  <Hit_accession>XP_044614621</Hit_accession>
-  <Hit_len>249</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>313.923</Hsp_bit-score>
-      <Hsp_score>803</Hsp_score>
-      <Hsp_evalue>9.12564e-106</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>178</Hsp_query-to>
-      <Hsp_hit-from>72</Hsp_hit-from>
-      <Hsp_hit-to>249</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>149</Hsp_identity>
-      <Hsp_positive>162</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>178</Hsp_align-len>
-      <Hsp_qseq>MHSSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_qseq>
-      <Hsp_hseq>MPSAALLCCLVFLAGVGASRDRGTQSENSCTHFPTSLPHMLHELRAAFSRVKTFFQMKDQLDNMLLNGSLLEDFKGYLGCQALSEMIQFYLEEVMPQAENHGPDIKEHVNSLGEKLKTLRVRLRRCHRFLPCENKSKAVEQVKSAFSKLQEKGVYKAMSEFDIFINYVEAYMTTKMKN</Hsp_hseq>
-      <Hsp_midline>M S+ALLCCLV L GV AS  +GTQSENSCTHFP +LP+ML +LR AFSRVKTFFQMKDQLDN+LL  SLLEDFKGYLGCQALSEMIQFYLEEVMPQAEN  PDIK HVNSLGE LKTLR+RLRRCHRFLPCENKSKAVEQVK+AF+KLQEKG+YKAMSEFDIFINY+EAYMT K++N</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>40</Hit_num>
-  <Hit_id>ref|XP_006094927.1|</Hit_id>
-  <Hit_def>interleukin-10 [Myotis lucifugus] &gt;tpe|CAB0000478.1| TPA: interferon 2A [Myotis lucifugus]</Hit_def>
-  <Hit_accession>XP_006094927</Hit_accession>
-  <Hit_len>178</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>310.457</Hsp_bit-score>
-      <Hsp_score>794</Hsp_score>
-      <Hsp_evalue>2.07293e-105</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>178</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>178</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>148</Hsp_identity>
-      <Hsp_positive>162</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>178</Hsp_align-len>
-      <Hsp_qseq>MHSSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_qseq>
-      <Hsp_hseq>MPSSALLCCLVFLAGMGASPAQGTPSENSCTHFSTSLPHMLRELRAAFSRVKTFFQMKDQLDNMLLNGSLLEDFKGYLGCQALSEMIQFYLEEVMPQAESQGPDIKEPVSSLGEKLKTLRLQLRRCHRFLPCENKSKAVEQVKSAFSKLQERGVYKAMSEFDIFINYIEAYMTMKMKK</Hsp_hseq>
-      <Hsp_midline>M SSALLCCLV L G+ ASP QGT SENSCTHF  +LP+MLR+LR AFSRVKTFFQMKDQLDN+LL  SLLEDFKGYLGCQALSEMIQFYLEEVMPQAE+Q PDIK  V+SLGE LKTLRL+LRRCHRFLPCENKSKAVEQVK+AF+KLQE+G+YKAMSEFDIFINYIEAYMTMK++ </Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>41</Hit_num>
-  <Hit_id>ref|XP_058394138.1|</Hit_id>
-  <Hit_def>interleukin-10 [Diceros bicornis minor] &gt;gb|KAF5916562.1| hypothetical protein HPG69_005357 [Diceros bicornis minor]</Hit_def>
-  <Hit_accession>XP_058394138</Hit_accession>
-  <Hit_len>178</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>308.531</Hsp_bit-score>
-      <Hsp_score>789</Hsp_score>
-      <Hsp_evalue>1.02804e-104</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>178</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>178</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>148</Hsp_identity>
-      <Hsp_positive>161</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>178</Hsp_align-len>
-      <Hsp_qseq>MHSSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_qseq>
-      <Hsp_hseq>MPSSALLCCLVFLAGVGASQDEGTQSKGSCTLFPANLPHMLQELRAAFSRVKTFFQMKDELDNMLLNGSLLEDFKGYLGCQALSEMIQFYLEEVMPQAENHGPDIKVHVNSLGEKLKTLRLRLRQCHRFLPCENKSKAVEQVKSAFSKLQGKGVYKAMSEFDIFINYIEAYMTMKMKN</Hsp_hseq>
-      <Hsp_midline>M SSALLCCLV L GV AS  +GTQS+ SCT FP NLP+ML++LR AFSRVKTFFQMKD+LDN+LL  SLLEDFKGYLGCQALSEMIQFYLEEVMPQAEN  PDIK HVNSLGE LKTLRLRLR+CHRFLPCENKSKAVEQVK+AF+KLQ KG+YKAMSEFDIFINYIEAYMTMK++N</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>42</Hit_num>
-  <Hit_id>ref|XP_005375461.1|</Hit_id>
-  <Hit_def>PREDICTED: interleukin-10 [Chinchilla lanigera]</Hit_def>
-  <Hit_accession>XP_005375461</Hit_accession>
-  <Hit_len>178</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>308.531</Hsp_bit-score>
-      <Hsp_score>789</Hsp_score>
-      <Hsp_evalue>1.26622e-104</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>178</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>178</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>148</Hsp_identity>
-      <Hsp_positive>157</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>178</Hsp_align-len>
-      <Hsp_qseq>MHSSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_qseq>
-      <Hsp_hseq>MPSSALLYCLVLLAGLGAGQGMGTQSEDSCAHFPAGLPHMLRELRAAFGRVKTFFQTQDQLDNVLLNESLLEDFKGYLGCQALSEMIQFYLAEVMPKAENHDPDIKEHVNSLGEKLKTLRQRLRRCHRFLPCENKSKAVEQVKTAFSKLQEKGVYKAMSEFDIFINYIEAYMTMKITN</Hsp_hseq>
-      <Hsp_midline>M SSALL CLVLL G+ A  G GTQSE+SC HFP  LP+MLR+LR AF RVKTFFQ +DQLDN+LL ESLLEDFKGYLGCQALSEMIQFYL EVMP+AEN DPDIK HVNSLGE LKTLR RLRRCHRFLPCENKSKAVEQVK AF+KLQEKG+YKAMSEFDIFINYIEAYMTMKI N</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>43</Hit_num>
-  <Hit_id>ref|XP_005885287.1|</Hit_id>
-  <Hit_def>PREDICTED: interleukin-10 [Myotis brandtii] &gt;gb|EPQ19601.1| Interleukin-10 [Myotis brandtii]</Hit_def>
-  <Hit_accession>XP_005885287</Hit_accession>
-  <Hit_len>178</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>308.145</Hsp_bit-score>
-      <Hsp_score>788</Hsp_score>
-      <Hsp_evalue>1.46026e-104</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>178</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>178</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>147</Hsp_identity>
-      <Hsp_positive>161</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>178</Hsp_align-len>
-      <Hsp_qseq>MHSSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_qseq>
-      <Hsp_hseq>MPGSALLCCLVFLAGMGASPAQGTPSENSCTHFSTSLPHMLRELRAAFSRVKTFFQMKDQLDNMLLNGSLLEDFKGYLGCQALSEMIQFYLEEVMPQAESQGPDIKEPVSSLGEKLKTLRLQLRRCHRFLPCENKSKAVEQVKSAFSKLQERGVYKAMSEFDIFINYIEAYMTMKMKK</Hsp_hseq>
-      <Hsp_midline>M  SALLCCLV L G+ ASP QGT SENSCTHF  +LP+MLR+LR AFSRVKTFFQMKDQLDN+LL  SLLEDFKGYLGCQALSEMIQFYLEEVMPQAE+Q PDIK  V+SLGE LKTLRL+LRRCHRFLPCENKSKAVEQVK+AF+KLQE+G+YKAMSEFDIFINYIEAYMTMK++ </Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>44</Hit_num>
-  <Hit_id>ref|XP_055226028.1|</Hit_id>
-  <Hit_def>interleukin-10 isoform X1 [Gorilla gorilla gorilla]</Hit_def>
-  <Hit_accession>XP_055226028</Hit_accession>
-  <Hit_len>199</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>308.916</Hsp_bit-score>
-      <Hsp_score>790</Hsp_score>
-      <Hsp_evalue>1.61999e-104</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>153</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>153</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>148</Hsp_identity>
-      <Hsp_positive>149</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>153</Hsp_align-len>
-      <Hsp_qseq>MHSSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKG</Hsp_qseq>
-      <Hsp_hseq>MHSSALLCCLVLLTGVRASPGHGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKVSLDG</Hsp_hseq>
-      <Hsp_midline>MHSSALLCCLVLLTGVRASPG GTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNK+   G</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>45</Hit_num>
-  <Hit_id>tpe|CAB0000415.1|</Hit_id>
-  <Hit_def>TPA: interferon 2A [Equus caballus]</Hit_def>
-  <Hit_accession>CAB0000415</Hit_accession>
-  <Hit_len>249</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>310.842</Hsp_bit-score>
-      <Hsp_score>795</Hsp_score>
-      <Hsp_evalue>1.68121e-104</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>178</Hsp_query-to>
-      <Hsp_hit-from>72</Hsp_hit-from>
-      <Hsp_hit-to>249</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>149</Hsp_identity>
-      <Hsp_positive>161</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>178</Hsp_align-len>
-      <Hsp_qseq>MHSSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_qseq>
-      <Hsp_hseq>MPSAALLCYLVFLAGVGASRDRGTQSENSCTHFPTSLPHMLHELRAAFSRVKTFFQMKDQLDNMLLNGSLLEDFKGYLGCQALSEMIQFYLEEVMPQAENHGPDIKEHVNSLGEKLKTLRVRLRRCHRFLPCENKSKAVEQVKSAFSKLQEKGVYKAMSEFDIFINYIEAYMTTKMKN</Hsp_hseq>
-      <Hsp_midline>M S+ALLC LV L GV AS  +GTQSENSCTHFP +LP+ML +LR AFSRVKTFFQMKDQLDN+LL  SLLEDFKGYLGCQALSEMIQFYLEEVMPQAEN  PDIK HVNSLGE LKTLR+RLRRCHRFLPCENKSKAVEQVK+AF+KLQEKG+YKAMSEFDIFINYIEAYMT K++N</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>46</Hit_num>
-  <Hit_id>ref|XP_004425149.1|</Hit_id>
-  <Hit_def>PREDICTED: interleukin-10 isoform X2 [Ceratotherium simum simum]</Hit_def>
-  <Hit_accession>XP_004425149</Hit_accession>
-  <Hit_len>178</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>307.375</Hsp_bit-score>
-      <Hsp_score>786</Hsp_score>
-      <Hsp_evalue>2.69875e-104</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>178</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>178</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>147</Hsp_identity>
-      <Hsp_positive>161</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>178</Hsp_align-len>
-      <Hsp_qseq>MHSSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_qseq>
-      <Hsp_hseq>MPSSALLCCLIFLAGVGASQDEGTQSKGSCTLFPANLPHMLQELRAAFSRVKTFFQMKDELDNMLLNGSLLEDFKGYLGCQALSEMIQFYLEEVMPQAENHGPDIKEHVNSLGEKLKTLRLRLRQCHRFLPCENKSKAVEQVKSAFSKLQGKGVYKAMSEFDIFINYIEAYMTMKMKN</Hsp_hseq>
-      <Hsp_midline>M SSALLCCL+ L GV AS  +GTQS+ SCT FP NLP+ML++LR AFSRVKTFFQMKD+LDN+LL  SLLEDFKGYLGCQALSEMIQFYLEEVMPQAEN  PDIK HVNSLGE LKTLRLRLR+CHRFLPCENKSKAVEQVK+AF+KLQ KG+YKAMSEFDIFINYIEAYMTMK++N</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>47</Hit_num>
-  <Hit_id>ref|XP_008152395.1|</Hit_id>
-  <Hit_def>interleukin-10 [Eptesicus fuscus]</Hit_def>
-  <Hit_accession>XP_008152395</Hit_accession>
-  <Hit_len>178</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>306.99</Hsp_bit-score>
-      <Hsp_score>785</Hsp_score>
-      <Hsp_evalue>4.09409e-104</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>178</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>178</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>147</Hsp_identity>
-      <Hsp_positive>160</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>178</Hsp_align-len>
-      <Hsp_qseq>MHSSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_qseq>
-      <Hsp_hseq>MPSSALLCCLVFLAGMGVSPAQGMPSENSCTHFSTSLPHMLRELRAAFSRVKIFFQMKDQLDNMLLNGSLLEDFQGYLGCQALSEMIQFYLEEVMPQAESQGPDIKEPVNSLGEKLKTLRLQLRRCHRFLPCENKSKAVEQVKSAFSKLQEKGVYKAMSEFDIFINYIEAYMTMKMKN</Hsp_hseq>
-      <Hsp_midline>M SSALLCCLV L G+  SP QG  SENSCTHF  +LP+MLR+LR AFSRVK FFQMKDQLDN+LL  SLLEDF+GYLGCQALSEMIQFYLEEVMPQAE+Q PDIK  VNSLGE LKTLRL+LRRCHRFLPCENKSKAVEQVK+AF+KLQEKG+YKAMSEFDIFINYIEAYMTMK++N</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>48</Hit_num>
-  <Hit_id>ref|XP_036200641.1|</Hit_id>
-  <Hit_def>interleukin-10 [Myotis myotis] &gt;gb|KAF6290759.1| interleukin 10 [Myotis myotis]</Hit_def>
-  <Hit_accession>XP_036200641</Hit_accession>
-  <Hit_len>178</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>306.99</Hsp_bit-score>
-      <Hsp_score>785</Hsp_score>
-      <Hsp_evalue>4.82617e-104</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>177</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>177</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>146</Hsp_identity>
-      <Hsp_positive>160</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>177</Hsp_align-len>
-      <Hsp_qseq>MHSSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIR</Hsp_qseq>
-      <Hsp_hseq>MPSSALLCCLVFLAGMGAGPAQGTPSENSCTHFSTSLPHMLRELRAAFSRVKTFFQMKDQLDNMLLNGSLLEDFKGYLGCQALSEMIQFYLEEVMPQAESQGPDIKEPVNSLGEKLKTLRLQLRRCHRFLPCENRSKAVEQVKSAFSKLQERGVYKAMSEFDIFINYIEVYMTMKMK</Hsp_hseq>
-      <Hsp_midline>M SSALLCCLV L G+ A P QGT SENSCTHF  +LP+MLR+LR AFSRVKTFFQMKDQLDN+LL  SLLEDFKGYLGCQALSEMIQFYLEEVMPQAE+Q PDIK  VNSLGE LKTLRL+LRRCHRFLPCEN+SKAVEQVK+AF+KLQE+G+YKAMSEFDIFINYIE YMTMK++</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>49</Hit_num>
-  <Hit_id>ref|XP_059529600.1|</Hit_id>
-  <Hit_def>interleukin-10 [Myotis daubentonii]</Hit_def>
-  <Hit_accession>XP_059529600</Hit_accession>
-  <Hit_len>178</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>304.679</Hsp_bit-score>
-      <Hsp_score>779</Hsp_score>
-      <Hsp_evalue>3.51312e-103</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>177</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>177</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>145</Hsp_identity>
-      <Hsp_positive>159</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>177</Hsp_align-len>
-      <Hsp_qseq>MHSSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIR</Hsp_qseq>
-      <Hsp_hseq>MPSSALLCCLVFLAGMGAGPAQGMPSENSCTHFSTSLPHMLRELRAAFSRVKTFFQMKDQLDNMLLNESLLEDFKGYLGCQALSEMIQFYLEEVMPQAESQGPNIKEPVNSLGEKLKTLRLQLRRCHRFLPCENKSKAVEQVKSTFSKLQERGVYKAMSEFDIFINYIEVYMTMKMK</Hsp_hseq>
-      <Hsp_midline>M SSALLCCLV L G+ A P QG  SENSCTHF  +LP+MLR+LR AFSRVKTFFQMKDQLDN+LL ESLLEDFKGYLGCQALSEMIQFYLEEVMPQAE+Q P+IK  VNSLGE LKTLRL+LRRCHRFLPCENKSKAVEQVK+ F+KLQE+G+YKAMSEFDIFINYIE YMTMK++</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>50</Hit_num>
-  <Hit_id>ref|XP_003410325.1|</Hit_id>
-  <Hit_def>interleukin-10 isoform X2 [Loxodonta africana] &gt;gb|QQK85119.1| interleukin 10 [Loxodonta africana] &gt;tpe|CAB0000569.1| TPA: interferon 2A [Loxodonta africana]</Hit_def>
-  <Hit_accession>XP_003410325</Hit_accession>
-  <Hit_len>178</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>304.679</Hsp_bit-score>
-      <Hsp_score>779</Hsp_score>
-      <Hsp_evalue>3.59103e-103</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>178</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>178</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>146</Hsp_identity>
+      <Hsp_identity>142</Hsp_identity>
       <Hsp_positive>158</Hsp_positive>
       <Hsp_gaps>0</Hsp_gaps>
       <Hsp_align-len>178</Hsp_align-len>
       <Hsp_qseq>MHSSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_qseq>
-      <Hsp_hseq>MACSALLCCLVFLAGVGASQSQETPSENSCTYFPGSLPNMLRELRMAFDRVKTFFQKKDQLDNMLLNKSLLEDFKGYLGCQALSEMIKFYLEVVMPQAENHGPDIKEHVNSLGEKLTTLRIRLRRCHRFLPCENRSKAVEQVKEAFSKLQEKGVYKAMSEFDIFINYIESYMTMKIKN</Hsp_hseq>
-      <Hsp_midline>M  SALLCCLV L GV AS  Q T SENSCT+FPG+LPNMLR+LR AF RVKTFFQ KDQLDN+LL +SLLEDFKGYLGCQALSEMI+FYLE VMPQAEN  PDIK HVNSLGE L TLR+RLRRCHRFLPCEN+SKAVEQVK AF+KLQEKG+YKAMSEFDIFINYIE+YMTMKI+N</Hsp_midline>
+      <Hsp_hseq>MLSSALLCCLVFLGGTGASRGQDTPAENSCIHFPGGLPHMLRELRAAFGRVKTFFQSKDQLNSMLLTESLLEDLKGYLGCQALSEMIQFYLKDVMPQAENHSPAIREHVNSLGENLKTLRLRLRQCHRFLPCENKSKAVEQVKSAFSKLQEEGVYKAMSEFDIFINYIETYMTMKIKS</Hsp_hseq>
+      <Hsp_midline>M SSALLCCLV L G  AS GQ T +ENSC HFPG LP+MLR+LR AF RVKTFFQ KDQL+++LL ESLLED KGYLGCQALSEMIQFYL++VMPQAEN  P I+ HVNSLGENLKTLRLRLR+CHRFLPCENKSKAVEQVK+AF+KLQE+G+YKAMSEFDIFINYIE YMTMKI++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>sp|P68677.1|</Hit_id>
+  <Hit_def>RecName: Full=Viral interleukin-10 homolog; Short=vIL-10; Flags: Precursor [Equid herpesvirus type 2 strain t400/3] &gt;sp|P68678.1| RecName: Full=Viral interleukin-10 homolog; Short=vIL-10; Flags: Precursor [Equid herpesvirus type 2 strain 86/87]</Hit_def>
+  <Hit_accession>P68677</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>275.789</Hsp_bit-score>
+      <Hsp_score>704</Hsp_score>
+      <Hsp_evalue>6.46763e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>151</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>MHSSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDI-KAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_qseq>
+      <Hsp_hseq>MFRASLLCCLVLLAGVWADNKYDSESGDDCPTLPTSLPHMLHELRAAFSRVKTFFQMKDQLDNMLLDGSLLEDFKGYLGCQALSEMIQFYLEEVMPQAENHSTDQEKDKVNSLGEKLKTLRVRLRRCHRFLPCENKSKAVEQVKSAFSKLQEKGVYKAMSEFDIFINYIEAYMTTKMKN</Hsp_hseq>
+      <Hsp_midline>M  ++LLCCLVLL GV A     ++S + C   P +LP+ML +LR AFSRVKTFFQMKDQLDN+LL  SLLEDFKGYLGCQALSEMIQFYLEEVMPQAEN   D  K  VNSLGE LKTLR+RLRRCHRFLPCENKSKAVEQVK+AF+KLQEKG+YKAMSEFDIFINYIEAYMT K++N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>sp|P47965.1|</Hit_id>
+  <Hit_def>RecName: Full=Interleukin-10; Short=IL-10; AltName: Full=Cytokine synthesis inhibitory factor; Short=CSIF; Flags: Precursor [Meriones unguiculatus]</Hit_def>
+  <Hit_accession>P47965</Hit_accession>
+  <Hit_len>178</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>275.404</Hsp_bit-score>
+      <Hsp_score>703</Hsp_score>
+      <Hsp_evalue>8.97402e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>MHSSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_qseq>
+      <Hsp_hseq>MPSSALLYCLILLAGVRPSRGEYPRNESNCTHFPVSQTHMLRELRAAFSQVKTFFQKKDQLDNILLTDSLQQDFKGYLGCQALSEMIQFYLVEVMPQAENHGPEIKENLNSLGEKLKTLRMQLRRCHRFLPCENKSKAVEQVKNDFNKLQEKGVYKAMNEFDIFINCIEAYMTIKMKS</Hsp_hseq>
+      <Hsp_midline>M SSALL CL+LL GVR S G+  ++E++CTHFP +  +MLR+LR AFS+VKTFFQ KDQLDN+LL +SL +DFKGYLGCQALSEMIQFYL EVMPQAEN  P+IK ++NSLGE LKTLR++LRRCHRFLPCENKSKAVEQVKN FNKLQEKG+YKAM+EFDIFIN IEAYMT+K+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>sp|Q9Z1Y5.1|</Hit_id>
+  <Hit_def>RecName: Full=Interleukin-10; Short=IL-10; AltName: Full=Cytokine synthesis inhibitory factor; Short=CSIF; Flags: Precursor [Cavia porcellus]</Hit_def>
+  <Hit_accession>Q9Z1Y5</Hit_accession>
+  <Hit_len>178</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>269.24</Hsp_bit-score>
+      <Hsp_score>687</Hsp_score>
+      <Hsp_evalue>2.32455e-92</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>GVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_qseq>
+      <Hsp_hseq>GVKASQGTNTQSEDSCAHFPAGLPHMLRELRAAFGRVKTFFQTQDQLDNVLLNKSLLEDFKGYLGCQALSEMIQFYLVEVMPQAEKHGPEIKEHLNSLGEKLKTLRMRLRRCHRFLPCENKSKAVEQVKSDFNKLQDQGVYKAMNEFDIFINCIEAYMMIKMKS</Hsp_hseq>
+      <Hsp_midline>GV+AS G  TQSE+SC HFP  LP+MLR+LR AF RVKTFFQ +DQLDN+LL +SLLEDFKGYLGCQALSEMIQFYL EVMPQAE   P+IK H+NSLGE LKTLR+RLRRCHRFLPCENKSKAVEQVK+ FNKLQ++G+YKAM+EFDIFIN IEAYM +K+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>sp|Q9JHK7.1|</Hit_id>
+  <Hit_def>RecName: Full=Interleukin-10; Short=IL-10; AltName: Full=Cytokine synthesis inhibitory factor; Short=CSIF; Flags: Precursor [Marmota monax]</Hit_def>
+  <Hit_accession>Q9JHK7</Hit_accession>
+  <Hit_len>178</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>260.381</Hsp_bit-score>
+      <Hsp_score>664</Hsp_score>
+      <Hsp_evalue>7.73014e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>MHSSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_qseq>
+      <Hsp_hseq>MPNPVLLYCLVLLAGMGTSQGENTQSEETCTHFPGGLPHMLRELRAAFGRVKIFFQTKDQLDDMLLSESLLEDFKGYLGCQALSEMIQFYLVEVMPQAENHSPDVKEHVNSLGEKLKTLRLRLRRCHRFLPCENKSKAVQQVKDAFSKLQEKGIYKAMSEFDIFINYIEAYMTAKINS</Hsp_hseq>
+      <Hsp_midline>M +  LL CLVLL G+  S G+ TQSE +CTHFPG LP+MLR+LR AF RVK FFQ KDQLD++LL ESLLEDFKGYLGCQALSEMIQFYL EVMPQAEN  PD+K HVNSLGE LKTLRLRLRRCHRFLPCENKSKAV+QVK+AF+KLQEKGIYKAMSEFDIFINYIEAYMT KI +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>sp|P29456.1|</Hit_id>
+  <Hit_def>RecName: Full=Interleukin-10; Short=IL-10; AltName: Full=Cytokine synthesis inhibitory factor; Short=CSIF; Flags: Precursor [Rattus norvegicus]</Hit_def>
+  <Hit_accession>P29456</Hit_accession>
+  <Hit_len>178</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>260.381</Hsp_bit-score>
+      <Hsp_score>664</Hsp_score>
+      <Hsp_evalue>9.41553e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>MHSSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_qseq>
+      <Hsp_hseq>MPGSALLCCLLLLAGVKTSKGHSIRGDNNCTHFPVSQTHMLRELRAAFSQVKTFFQKKDQLDNILLTDSLLQDFKGYLGCQALSEMIKFYLVEVMPQAENHGPEIKEHLNSLGEKLKTLWIQLRRCHRFLPCENKSKAVEQVKNDFNKLQDKGVYKAMNEFDIFINCIEAYVTLKMKN</Hsp_hseq>
+      <Hsp_midline>M  SALLCCL+LL GV+ S G   + +N+CTHFP +  +MLR+LR AFS+VKTFFQ KDQLDN+LL +SLL+DFKGYLGCQALSEMI+FYL EVMPQAEN  P+IK H+NSLGE LKTL ++LRRCHRFLPCENKSKAVEQVKN FNKLQ+KG+YKAM+EFDIFIN IEAY+T+K++N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>sp|Q2PE73.1|</Hit_id>
+  <Hit_def>RecName: Full=Interleukin-10; Short=IL-10; AltName: Full=Cytokine synthesis inhibitory factor; Short=CSIF; Flags: Precursor [Bubalus carabanensis]</Hit_def>
+  <Hit_accession>Q2PE73</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>259.996</Hsp_bit-score>
+      <Hsp_score>663</Hsp_score>
+      <Hsp_evalue>1.38306e-88</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>SSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIR</Hsp_qseq>
+      <Hsp_hseq>SSALLCCLVFLAGVAASRDASTLSDSSCTQFPTSLPHMLRELRAAFSRVKTFFQMKDQLDSLLLTQSLLDDFKGYLGCQALSEMIQFYLEEVMPQAENHGPDIKEHVNSLGEKLKTLRLRLRRCHRFLPCENKSKAVEQVKRAFSKLQDRGVYKAMSEFDIFINYIETYVTTKMQ</Hsp_hseq>
+      <Hsp_midline>SSALLCCLV L GV AS    T S++SCT FP +LP+MLR+LR AFSRVKTFFQMKDQLD+LLL +SLL+DFKGYLGCQALSEMIQFYLEEVMPQAEN  PDIK HVNSLGE LKTLRLRLRRCHRFLPCENKSKAVEQVK AF+KLQ++G+YKAMSEFDIFINYIE Y+T K++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>sp|Q865X4.1|</Hit_id>
+  <Hit_def>RecName: Full=Interleukin-10; Short=IL-10; AltName: Full=Cytokine synthesis inhibitory factor; Short=CSIF; Flags: Precursor [Lama glama]</Hit_def>
+  <Hit_accession>Q865X4</Hit_accession>
+  <Hit_len>178</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>259.996</Hsp_bit-score>
+      <Hsp_score>663</Hsp_score>
+      <Hsp_evalue>1.42783e-88</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>GVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_qseq>
+      <Hsp_hseq>GVAASRDQGTQSENSCAHFPASLPHMLRELRAAFGRVKTFFQMKDQLDNMLLTRSLLEDFKGYLGCQALSEMIQFYLEEVMPQAENHGPDIKEHVNSLGEKLKTLRLRLRRCHRFLPCENKSKAVEQVRGVFSKLQEKGVYKAMSEFDIFINYIEAYMTMKMKN</Hsp_hseq>
+      <Hsp_midline>GV AS  QGTQSENSC HFP +LP+MLR+LR AF RVKTFFQMKDQLDN+LL  SLLEDFKGYLGCQALSEMIQFYLEEVMPQAEN  PDIK HVNSLGE LKTLRLRLRRCHRFLPCENKSKAVEQV+  F+KLQEKG+YKAMSEFDIFINYIEAYMTMK++N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>sp|P55029.2|</Hit_id>
+  <Hit_def>RecName: Full=Interleukin-10; Short=IL-10; AltName: Full=Cytokine synthesis inhibitory factor; Short=CSIF; Flags: Precursor [Felis catus]</Hit_def>
+  <Hit_accession>P55029</Hit_accession>
+  <Hit_len>178</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>259.225</Hsp_bit-score>
+      <Hsp_score>661</Hsp_score>
+      <Hsp_evalue>2.14163e-88</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>MHSSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIR</Hsp_qseq>
+      <Hsp_hseq>MHSSALLCFLVFLAGVGASRHQSTLSEDNCTHFSVSLPHMLRELRAAFGKVKTFFQTKDELHSILLTRSLLEDFKGYLGCQALSEMIQFYLEEVMPQAENEDPDIKQHVNSLGEKLKTLRLRLRRCHRFLPCENKSKVVEQVKSTFSKLQEKGVYKAMGEFDIFINYIEAYMTMKMK</Hsp_hseq>
+      <Hsp_midline>MHSSALLC LV L GV AS  Q T SE++CTHF  +LP+MLR+LR AF +VKTFFQ KD+L ++LL  SLLEDFKGYLGCQALSEMIQFYLEEVMPQAEN+DPDIK HVNSLGE LKTLRLRLRRCHRFLPCENKSK VEQVK+ F+KLQEKG+YKAM EFDIFINYIEAYMTMK++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>sp|Q29408.1|</Hit_id>
+  <Hit_def>RecName: Full=Interleukin-10; Short=IL-10; AltName: Full=Cytokine synthesis inhibitory factor; Short=CSIF; Flags: Precursor [Ovis aries]</Hit_def>
+  <Hit_accession>Q29408</Hit_accession>
+  <Hit_len>177</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>257.684</Hsp_bit-score>
+      <Hsp_score>657</Hsp_score>
+      <Hsp_evalue>8.41654e-88</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>176</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>SSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKI</Hsp_qseq>
+      <Hsp_hseq>SSAVLCCLVFLAGVAASRDASTLSDSSCTHFPASLPHMLRDVRAAFGKVKTFFQMKDQLNSMLLTQSLLDDFKGYLGCQALSEMIQFYLEEVMPQAENHGPDIKEHVNSLGEKLKTLRLRLRRCHRFLPCENKSKAVEQVKRVFNMLQERGVYKAMSEFDIFINYIESYMTTKM</Hsp_hseq>
+      <Hsp_midline>SSA+LCCLV L GV AS    T S++SCTHFP +LP+MLRD+R AF +VKTFFQMKDQL+++LL +SLL+DFKGYLGCQALSEMIQFYLEEVMPQAEN  PDIK HVNSLGE LKTLRLRLRRCHRFLPCENKSKAVEQVK  FN LQE+G+YKAMSEFDIFINYIE+YMT K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>sp|P18893.2|</Hit_id>
+  <Hit_def>RecName: Full=Interleukin-10; Short=IL-10; AltName: Full=Cytokine synthesis inhibitory factor; Short=CSIF; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>P18893</Hit_accession>
+  <Hit_len>178</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.529</Hsp_bit-score>
+      <Hsp_score>654</Hsp_score>
+      <Hsp_evalue>2.66188e-87</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>178</Hsp_align-len>
+      <Hsp_qseq>MHSSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_qseq>
+      <Hsp_hseq>MPGSALLCCLLLLTGMRISRGQYSREDNNCTHFPVGQSHMLLELRTAFSQVKTFFQTKDQLDNILLTDSLMQDFKGYLGCQALSEMIQFYLVEVMPQAEKHGPEIKEHLNSLGEKLKTLRMRLRRCHRFLPCENKSKAVEQVKSDFNKLQDQGVYKAMNEFDIFINCIEAYMMIKMKS</Hsp_hseq>
+      <Hsp_midline>M  SALLCCL+LLTG+R S GQ ++ +N+CTHFP    +ML +LR AFS+VKTFFQ KDQLDN+LL +SL++DFKGYLGCQALSEMIQFYL EVMPQAE   P+IK H+NSLGE LKTLR+RLRRCHRFLPCENKSKAVEQVK+ FNKLQ++G+YKAM+EFDIFIN IEAYM +K+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>sp|P51746.1|</Hit_id>
+  <Hit_def>RecName: Full=Interleukin-10; Short=IL-10; AltName: Full=Cytokine synthesis inhibitory factor; Short=CSIF; Flags: Precursor [Cervus elaphus]</Hit_def>
+  <Hit_accession>P51746</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>256.144</Hsp_bit-score>
+      <Hsp_score>653</Hsp_score>
+      <Hsp_evalue>4.60798e-87</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>SSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_qseq>
+      <Hsp_hseq>SSALLCCLVFLAGVAASRDASAPSDSSCTHFSNSLPLMLRELRTAFSRVKNFFQMKDQLDSMLLTQSLLDDFKGYLGCQALSEMIQFYLEEVMPQAENHGPEIKEHVNSLGEKLKTLRLRLRRCHRFLPCENKSKAVEQVKSVFSKLQERGVYKAMSEFDIFINYIETYTTMKMKN</Hsp_hseq>
+      <Hsp_midline>SSALLCCLV L GV AS      S++SCTHF  +LP MLR+LR AFSRVK FFQMKDQLD++LL +SLL+DFKGYLGCQALSEMIQFYLEEVMPQAEN  P+IK HVNSLGE LKTLRLRLRRCHRFLPCENKSKAVEQVK+ F+KLQE+G+YKAMSEFDIFINYIE Y TMK++N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>sp|P43480.2|</Hit_id>
+  <Hit_def>RecName: Full=Interleukin-10; Short=IL-10; AltName: Full=Cytokine synthesis inhibitory factor; Short=CSIF; Flags: Precursor [Bos taurus]</Hit_def>
+  <Hit_accession>P43480</Hit_accession>
+  <Hit_len>178</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>255.758</Hsp_bit-score>
+      <Hsp_score>652</Hsp_score>
+      <Hsp_evalue>5.30832e-87</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>177</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>154</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>MHSSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIR</Hsp_qseq>
+      <Hsp_hseq>MHSSALLCCLVFLAGVAASRDASTLSDSSCIHLPTSLPHMLRELRAAFGKVKTFFQMKDQLHSLLLTQSLLDDFKGYLGCQALSEMIQFYLEEVMPQAENHGPDIKEHVNSLGEKLKTLRLRLRRCHRFLPCENKSKAVEKVKRVFSELQERGVYKAMSEFDIFINYIETYMTTKMQ</Hsp_hseq>
+      <Hsp_midline>MHSSALLCCLV L GV AS    T S++SC H P +LP+MLR+LR AF +VKTFFQMKDQL +LLL +SLL+DFKGYLGCQALSEMIQFYLEEVMPQAEN  PDIK HVNSLGE LKTLRLRLRRCHRFLPCENKSKAVE+VK  F++LQE+G+YKAMSEFDIFINYIE YMT K++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>sp|Q29055.1|</Hit_id>
+  <Hit_def>RecName: Full=Interleukin-10; Short=IL-10; AltName: Full=Cytokine synthesis inhibitory factor; Short=CSIF; Flags: Precursor [Sus scrofa]</Hit_def>
+  <Hit_accession>Q29055</Hit_accession>
+  <Hit_len>175</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>253.447</Hsp_bit-score>
+      <Hsp_score>646</Hsp_score>
+      <Hsp_evalue>3.97431e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>173</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>152</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>MHSSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIR</Hsp_qseq>
+      <Hsp_hseq>MPSSALLYCLIFLAGVAAS----IKSENSCIHFPTSLPHMLRELRAAFGPVKSFFQTKDQMGDLLLTGSLLEDFKGYLGCQALSEMIQFYLEDVMPKAESDGEDIKEHVNSLGEKLKTLRLRLRRCHQFLPCENKSKAVEEVKSAFSKLQERGVYKAMGEFDIFINYIEAYMTMKMR</Hsp_hseq>
+      <Hsp_midline>M SSALL CL+ L GV AS     +SENSC HFP +LP+MLR+LR AF  VK+FFQ KDQ+ +LLL  SLLEDFKGYLGCQALSEMIQFYLE+VMP+AE+   DIK HVNSLGE LKTLRLRLRRCH+FLPCENKSKAVE+VK+AF+KLQE+G+YKAM EFDIFINYIEAYMTMK+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>sp|Q25BC1.1|</Hit_id>
+  <Hit_def>RecName: Full=Interleukin-10; Short=IL-10; AltName: Full=Cytokine synthesis inhibitory factor; Short=CSIF; Flags: Precursor [Vulpes vulpes]</Hit_def>
+  <Hit_accession>Q25BC1</Hit_accession>
+  <Hit_len>179</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>249.21</Hsp_bit-score>
+      <Hsp_score>635</Hsp_score>
+      <Hsp_evalue>2.64819e-84</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>TGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIR</Hsp_qseq>
+      <Hsp_hseq>AGVGASRHQSTLSEDDCTHFPASLPHMLRELRAAFGRVKTFFQMKDKLDNILLTGSLLEDFKGYLGCQALSEMIQFYLEEVMPRAENHDPDIKDHVNSLGEKLKTLRLRLRRCHRFLPCENKSKAVEQVKSAFSKLQEKGVYKAMSEFDIFINYIETYMTMRMK</Hsp_hseq>
+      <Hsp_midline> GV AS  Q T SE+ CTHFP +LP+MLR+LR AF RVKTFFQMKD+LDN+LL  SLLEDFKGYLGCQALSEMIQFYLEEVMP+AEN DPDIK HVNSLGE LKTLRLRLRRCHRFLPCENKSKAVEQVK+AF+KLQEKG+YKAMSEFDIFINYIE YMTM+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>sp|P03180.1|</Hit_id>
+  <Hit_def>RecName: Full=Viral interleukin-10 homolog; Short=vIL-10; AltName: Full=20 kDa protein; AltName: Full=Protein BCRF1; Flags: Precursor [Human herpesvirus 4 strain B95-8] &gt;sp|P0C6Z6.1| RecName: Full=Viral interleukin-10 homolog; Short=vIL-10; AltName: Full=20 kDa protein; AltName: Full=Protein BCRF1; Flags: Precursor [Epstein-barr virus strain ag876] &gt;sp|P0CAP9.1| RecName: Full=Viral interleukin-10 homolog; Short=vIL-10; AltName: Full=20 kDa protein; AltName: Full=Protein BCRF1; Flags: Precursor [Human gammaherpesvirus 4]</Hit_def>
+  <Hit_accession>P03180</Hit_accession>
+  <Hit_len>170</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>237.654</Hsp_bit-score>
+      <Hsp_score>605</Hsp_score>
+      <Hsp_evalue>7.06169e-80</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>LCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIR</Hsp_qseq>
+      <Hsp_hseq>LQCLVLL--YLAPECGGT---DQCDNFP----QMLRDLRDAFSRVKTFFQTKDEVDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPEAKDHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQIKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTIKAR</Hsp_hseq>
+      <Hsp_midline>L CLVLL    A    GT   + C +FP     MLRDLRDAFSRVKTFFQ KD++DNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDP+ K HVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQ+KNAFNKLQEKGIYKAMSEFDIFINYIEAYMT+K R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>sp|P48411.1|</Hit_id>
+  <Hit_def>RecName: Full=Interleukin-10; Short=IL-10; AltName: Full=Cytokine synthesis inhibitory factor; Short=CSIF; Flags: Precursor [Canis lupus familiaris]</Hit_def>
+  <Hit_accession>P48411</Hit_accession>
+  <Hit_len>181</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>237.269</Hsp_bit-score>
+      <Hsp_score>604</Hsp_score>
+      <Hsp_evalue>1.46375e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>180</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>MHSSALLCCLVLL-TGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGEN--LKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIR</Hsp_qseq>
+      <Hsp_hseq>MHGSALLCCCLVLLAGVGASRHQSTLLEDDCTHFPASLPHMLRELRAAFGRVKIFFQMKDKLDNILLTGSLLEDFKSYLGCQALSEMIQFYLEEVMPRAENHDPDIKNHVNSLGEKLKTLRLRLRLRRCHRFLPCENKSKAVEQVKSAFSKLQEKGVYKAMSEFDIFINYIETYMTMRMK</Hsp_hseq>
+      <Hsp_midline>MH SALLCC ++L  GV AS  Q T  E+ CTHFP +LP+MLR+LR AF RVK FFQMKD+LDN+LL  SLLEDFK YLGCQALSEMIQFYLEEVMP+AEN DPDIK HVNSLGE      LRLRLRRCHRFLPCENKSKAVEQVK+AF+KLQEKG+YKAMSEFDIFINYIE YMTM+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>sp|O46673.2|</Hit_id>
+  <Hit_def>RecName: Full=Interleukin-10; Short=IL-10; AltName: Full=Cytokine synthesis inhibitory factor; Short=CSIF; Flags: Precursor [Orcinus orca]</Hit_def>
+  <Hit_accession>O46673</Hit_accession>
+  <Hit_len>164</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>234.187</Hsp_bit-score>
+      <Hsp_score>596</Hsp_score>
+      <Hsp_evalue>1.2139e-78</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>164</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>130</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>MHSSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIF</Hsp_qseq>
+      <Hsp_hseq>MPSSALLCCLIFLARVAAGQHQGTQAKDSCIHFPDSLPHMLRELRAAFSNVKTFFQMNDQLDNSLLSQSLLEDFKGYLGCQALSEMIQFYLEEVMPKAEDHGPNIKEHVNSLGEKLKTLRLRLRRCHRFLPCENKSKAVEQVKSVFNKLQEKGVYKAMREFDIF</Hsp_hseq>
+      <Hsp_midline>M SSALLCCL+ L  V A   QGTQ+++SC HFP +LP+MLR+LR AFS VKTFFQM DQLDN LL +SLLEDFKGYLGCQALSEMIQFYLEEVMP+AE+  P+IK HVNSLGE LKTLRLRLRRCHRFLPCENKSKAVEQVK+ FNKLQEKG+YKAM EFDIF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>sp|O97798.1|</Hit_id>
+  <Hit_def>RecName: Full=Interleukin-10; Short=IL-10; AltName: Full=Cytokine synthesis inhibitory factor; Short=CSIF; Flags: Precursor [Trichosurus vulpecula]</Hit_def>
+  <Hit_accession>O97798</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.001</Hsp_bit-score>
+      <Hsp_score>541</Hsp_score>
+      <Hsp_evalue>3.65148e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>176</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>172</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>132</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>MHSSALLCCLVLLTGVRASPGQGTQSENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKDQLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKI</Hsp_qseq>
+      <Hsp_hseq>MPTWMLLFCLLCVT----SSNLSSALEDNCKTFSTTLPNMLRELRAAFSSVKTYFQTRDKLETKLIDKSLLEELKSYLGCQALSEMIKFYLEEVMPRAEENELDVKEDVGSLGEKLKALRLRLKRCHRFLPCEDNSRVVKQVRNTYKELQEQGVYKAMGDFDIFIGYMEEYLTMHI</Hsp_hseq>
+      <Hsp_midline>M +  LL CL+ +T    S    +  E++C  F   LPNMLR+LR AFS VKT+FQ +D+L+  L+ +SLLE+ K YLGCQALSEMI+FYLEEVMP+AE  + D+K  V SLGE LK LRLRL+RCHRFLPCE+ S+ V+QV+N + +LQE+G+YKAM +FDIFI Y+E Y+TM I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>sp|Q6A2H4.2|</Hit_id>
+  <Hit_def>RecName: Full=Interleukin-10; Short=IL-10; Flags: Precursor [Gallus gallus]</Hit_def>
+  <Hit_accession>Q6A2H4</Hit_accession>
+  <Hit_len>175</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.68</Hsp_bit-score>
+      <Hsp_score>387</Hsp_score>
+      <Hsp_evalue>9.90466e-47</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>175</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>ENSCTHFPGNLPNMLRDLRDAFSRVKTFFQMKD-QLDNLLLKESLLEDFKGYLGCQALSEMIQFYLEEVMPQAENQDPDIKAHVNSLGENLKTLRLRLRRCHRFLPCENKSKAVEQVKNAFNKLQEKGIYKAMSEFDIFINYIEAYMTMKIRN</Hsp_qseq>
+      <Hsp_hseq>EPTCLHFSELLPARLRELRVKFEEIKDYFQSRDDELNIQLLSSELLDEFKGTFGCQSVSEMLRFYTDEVLPRAMQTSTSHQQSMGDLGNMLLGLKATMRRCHRFFTCEKRSKAIKQIKETFEKMDENGIYKAMGEFDIFINYIEEYLLMRRRK</Hsp_hseq>
+      <Hsp_midline>E +C HF   LP  LR+LR  F  +K +FQ +D +L+  LL   LL++FKG  GCQ++SEM++FY +EV+P+A       +  +  LG  L  L+  +RRCHRF  CE +SKA++Q+K  F K+ E GIYKAM EFDIFINYIE Y+ M+ R </Hsp_midline>
     </Hsp>
   </Hit_hsps>
 </Hit>
 </Iteration_hits>
   <Iteration_stat>
     <Statistics>
-      <Statistics_db-num>652451255</Statistics_db-num>
-      <Statistics_db-len>255755617651</Statistics_db-len>
+      <Statistics_db-num>482424</Statistics_db-num>
+      <Statistics_db-len>183355587</Statistics_db-len>
       <Statistics_hsp-len>0</Statistics_hsp-len>
       <Statistics_eff-space>0</Statistics_eff-space>
       <Statistics_kappa>0.041</Statistics_kappa>

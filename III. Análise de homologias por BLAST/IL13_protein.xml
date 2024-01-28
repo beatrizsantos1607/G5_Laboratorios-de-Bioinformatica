@@ -2,11 +2,11 @@
 <!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
 <BlastOutput>
   <BlastOutput_program>blastp</BlastOutput_program>
-  <BlastOutput_version>BLASTP 2.14.1+</BlastOutput_version>
+  <BlastOutput_version>BLASTP 2.15.0+</BlastOutput_version>
   <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
-  <BlastOutput_db>nr</BlastOutput_db>
-  <BlastOutput_query-ID>Query_121785</BlastOutput_query-ID>
-  <BlastOutput_query-def>NP_002179.2 interleukin-13 isoform 1 precursor [Homo sapiens]</BlastOutput_query-def>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>Query_3074223</BlastOutput_query-ID>
+  <BlastOutput_query-def>unnamed protein product</BlastOutput_query-def>
   <BlastOutput_query-len>146</BlastOutput_query-len>
   <BlastOutput_param>
     <Parameters>
@@ -20,42 +20,14 @@
 <BlastOutput_iterations>
 <Iteration>
   <Iteration_iter-num>1</Iteration_iter-num>
-  <Iteration_query-ID>Query_121785</Iteration_query-ID>
-  <Iteration_query-def>NP_002179.2 interleukin-13 isoform 1 precursor [Homo sapiens]</Iteration_query-def>
+  <Iteration_query-ID>Query_3074223</Iteration_query-ID>
+  <Iteration_query-def>unnamed protein product</Iteration_query-def>
   <Iteration_query-len>146</Iteration_query-len>
 <Iteration_hits>
 <Hit>
   <Hit_num>1</Hit_num>
-  <Hit_id>ref|NP_002179.2|</Hit_id>
-  <Hit_def>interleukin-13 isoform 1 precursor [Homo sapiens] &gt;gb|AAH96139.1| Interleukin 13 [Homo sapiens] &gt;gb|AIC49053.1| IL13, partial [synthetic construct] &gt;dbj|BAG73312.1| interleukin 13, partial [synthetic construct] &gt;emb|SJX26726.1| unnamed protein product, partial [Human ORFeome Gateway entry vector]</Hit_def>
-  <Hit_accession>NP_002179</Hit_accession>
-  <Hit_len>146</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>297.36</Hsp_bit-score>
-      <Hsp_score>760</Hsp_score>
-      <Hsp_evalue>2.62736e-101</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>146</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>146</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>146</Hsp_identity>
-      <Hsp_positive>146</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>146</Hsp_align-len>
-      <Hsp_qseq>MHPLLNPLLLALGLMALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_qseq>
-      <Hsp_hseq>MHPLLNPLLLALGLMALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_hseq>
-      <Hsp_midline>MHPLLNPLLLALGLMALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>2</Hit_num>
   <Hit_id>sp|P35225.2|</Hit_id>
-  <Hit_def>RecName: Full=Interleukin-13; Short=IL-13; Flags: Precursor [Homo sapiens] &gt;gb|EAW62324.1| interleukin 13, isoform CRA_a [Homo sapiens] &gt;gb|KAI2538810.1| interleukin 13 [Homo sapiens] &gt;gb|KAI4022582.1| interleukin 13 [Homo sapiens] &gt;emb|CAA48823.1| NC30 [Homo sapiens] &gt;prf||1909326A interleukin 13 [Homo sapiens]</Hit_def>
+  <Hit_def>RecName: Full=Interleukin-13; Short=IL-13; Flags: Precursor [Homo sapiens]</Hit_def>
   <Hit_accession>P35225</Hit_accession>
   <Hit_len>146</Hit_len>
   <Hit_hsps>
@@ -63,7 +35,7 @@
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>295.819</Hsp_bit-score>
       <Hsp_score>756</Hsp_score>
-      <Hsp_evalue>1.19492e-100</Hsp_evalue>
+      <Hsp_evalue>8.68875e-104</Hsp_evalue>
       <Hsp_query-from>1</Hsp_query-from>
       <Hsp_query-to>146</Hsp_query-to>
       <Hsp_hit-from>1</Hsp_hit-from>
@@ -81,633 +53,17 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>3</Hit_num>
-  <Hit_id>gb|PNI50061.1|</Hit_id>
-  <Hit_def>IL13 isoform 1 [Pan troglodytes]</Hit_def>
-  <Hit_accession>PNI50061</Hit_accession>
-  <Hit_len>146</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>291.582</Hsp_bit-score>
-      <Hsp_score>745</Hsp_score>
-      <Hsp_evalue>5.75393e-99</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>146</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>146</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>143</Hsp_identity>
-      <Hsp_positive>145</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>146</Hsp_align-len>
-      <Hsp_qseq>MHPLLNPLLLALGLMALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_qseq>
-      <Hsp_hseq>MRPLLNPLLLALGLMALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGVYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGRFN</Hsp_hseq>
-      <Hsp_midline>M PLLNPLLLALGLMALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAG+YCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREG+FN</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>4</Hit_num>
-  <Hit_id>gb|PNJ80164.1|</Hit_id>
-  <Hit_def>IL13 isoform 1 [Pongo abelii]</Hit_def>
-  <Hit_accession>PNJ80164</Hit_accession>
-  <Hit_len>146</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>290.812</Hsp_bit-score>
-      <Hsp_score>743</Hsp_score>
-      <Hsp_evalue>9.12345e-99</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>146</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>146</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>142</Hsp_identity>
-      <Hsp_positive>145</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>146</Hsp_align-len>
-      <Hsp_qseq>MHPLLNPLLLALGLMALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_qseq>
-      <Hsp_hseq>MRPLLNPLLLALGLMALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGVYCAALESLVNVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGRFN</Hsp_hseq>
-      <Hsp_midline>M PLLNPLLLALGLMALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAG+YCAALESL+NVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREG+FN</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>5</Hit_num>
-  <Hit_id>ref|XP_003829348.2|</Hit_id>
-  <Hit_def>interleukin-13 isoform X1 [Pan paniscus]</Hit_def>
-  <Hit_accession>XP_003829348</Hit_accession>
-  <Hit_len>170</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>291.197</Hsp_bit-score>
-      <Hsp_score>744</Hsp_score>
-      <Hsp_evalue>1.59947e-98</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>146</Hsp_query-to>
-      <Hsp_hit-from>25</Hsp_hit-from>
-      <Hsp_hit-to>170</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>143</Hsp_identity>
-      <Hsp_positive>145</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>146</Hsp_align-len>
-      <Hsp_qseq>MHPLLNPLLLALGLMALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_qseq>
-      <Hsp_hseq>MRPLLNPLLLALGLMALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGVYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGRFN</Hsp_hseq>
-      <Hsp_midline>M PLLNPLLLALGLMALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAG+YCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREG+FN</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>6</Hit_num>
-  <Hit_id>ref|XP_054343351.1|</Hit_id>
-  <Hit_def>interleukin-13 isoform X1 [Pongo pygmaeus]</Hit_def>
-  <Hit_accession>XP_054343351</Hit_accession>
-  <Hit_len>170</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>290.426</Hsp_bit-score>
-      <Hsp_score>742</Hsp_score>
-      <Hsp_evalue>3.1234e-98</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>146</Hsp_query-to>
-      <Hsp_hit-from>25</Hsp_hit-from>
-      <Hsp_hit-to>170</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>142</Hsp_identity>
-      <Hsp_positive>145</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>146</Hsp_align-len>
-      <Hsp_qseq>MHPLLNPLLLALGLMALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_qseq>
-      <Hsp_hseq>MRPLLNPLLLALGLMALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGVYCAALESLVNVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGRFN</Hsp_hseq>
-      <Hsp_midline>M PLLNPLLLALGLMALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAG+YCAALESL+NVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREG+FN</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>7</Hit_num>
-  <Hit_id>ref|XP_002815912.2|</Hit_id>
-  <Hit_def>interleukin-13 isoform X1 [Pongo abelii]</Hit_def>
-  <Hit_accession>XP_002815912</Hit_accession>
-  <Hit_len>170</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>289.271</Hsp_bit-score>
-      <Hsp_score>739</Hsp_score>
-      <Hsp_evalue>1.07905e-97</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>146</Hsp_query-to>
-      <Hsp_hit-from>25</Hsp_hit-from>
-      <Hsp_hit-to>170</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>142</Hsp_identity>
-      <Hsp_positive>144</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>146</Hsp_align-len>
-      <Hsp_qseq>MHPLLNPLLLALGLMALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_qseq>
-      <Hsp_hseq>MRPLLNPLLLALGLMALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGVYCAALESLVNVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGGFN</Hsp_hseq>
-      <Hsp_midline>M PLLNPLLLALGLMALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAG+YCAALESL+NVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREG FN</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>8</Hit_num>
-  <Hit_id>ref|XP_003259993.1|</Hit_id>
-  <Hit_def>interleukin-13 isoform X1 [Nomascus leucogenys]</Hit_def>
-  <Hit_accession>XP_003259993</Hit_accession>
-  <Hit_len>146</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>286.189</Hsp_bit-score>
-      <Hsp_score>731</Hsp_score>
-      <Hsp_evalue>6.59256e-97</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>146</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>146</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>140</Hsp_identity>
-      <Hsp_positive>143</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>146</Hsp_align-len>
-      <Hsp_qseq>MHPLLNPLLLALGLMALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_qseq>
-      <Hsp_hseq>MHPLLNPLLLALGLMALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNVTQNQKTPLCNGSMVWSTNLTAGVYCAALESLINVSGCSAIEKTQRMLSGFCLHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGRFN</Hsp_hseq>
-      <Hsp_midline>MHPLLNPLLLALGLMALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVN+TQNQK PLCNGSMVWS NLTAG+YCAALESLINVSGCSAIEKTQRMLSGFC HKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREG+FN</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>9</Hit_num>
-  <Hit_id>ref|XP_004042524.2|</Hit_id>
-  <Hit_def>interleukin-13 isoform X2 [Gorilla gorilla gorilla]</Hit_def>
-  <Hit_accession>XP_004042524</Hit_accession>
-  <Hit_len>170</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>286.96</Hsp_bit-score>
-      <Hsp_score>733</Hsp_score>
-      <Hsp_evalue>8.67594e-97</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>146</Hsp_query-to>
-      <Hsp_hit-from>25</Hsp_hit-from>
-      <Hsp_hit-to>170</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>140</Hsp_identity>
-      <Hsp_positive>144</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>146</Hsp_align-len>
-      <Hsp_qseq>MHPLLNPLLLALGLMALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_qseq>
-      <Hsp_hseq>IHPLLNPLLLALGLMALFLTTVIALTCLGSFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGVYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKNLLLHLKKLFREGRFN</Hsp_hseq>
-      <Hsp_midline>+HPLLNPLLLALGLMAL LTTVIALTCLG FASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAG+YCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVK+LLLHLKKLFREG+FN</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>10</Hit_num>
-  <Hit_id>ref|XP_025244315.1|</Hit_id>
-  <Hit_def>interleukin-13 isoform X1 [Theropithecus gelada]</Hit_def>
-  <Hit_accession>XP_025244315</Hit_accession>
-  <Hit_len>146</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>285.034</Hsp_bit-score>
-      <Hsp_score>728</Hsp_score>
-      <Hsp_evalue>2.01935e-96</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>146</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>146</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>140</Hsp_identity>
-      <Hsp_positive>142</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>146</Hsp_align-len>
-      <Hsp_qseq>MHPLLNPLLLALGLMALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_qseq>
-      <Hsp_hseq>MRPLLNPLLLALGLMALLLTMVIALTCLGGFASPSPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGVYCAALESLINVSGCSAIEKTQRMLNGFCPHKVSAGQFSSLRVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_hseq>
-      <Hsp_midline>M PLLNPLLLALGLMALLLT VIALTCLGGFASP PVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAG+YCAALESLINVSGCSAIEKTQRML+GFCPHKVSAGQFSSL VRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>11</Hit_num>
-  <Hit_id>ref|XP_011824654.1|</Hit_id>
-  <Hit_def>PREDICTED: interleukin-13 [Mandrillus leucophaeus]</Hit_def>
-  <Hit_accession>XP_011824654</Hit_accession>
-  <Hit_len>146</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>283.493</Hsp_bit-score>
-      <Hsp_score>724</Hsp_score>
-      <Hsp_evalue>6.97892e-96</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>146</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>146</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>139</Hsp_identity>
-      <Hsp_positive>142</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>146</Hsp_align-len>
-      <Hsp_qseq>MHPLLNPLLLALGLMALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_qseq>
-      <Hsp_hseq>MRPLLNPLLLALGLMALLLTMVIALTCLGGFASPSPVPPSTALKELIEELVNITQNQKAPLCNGSMVWSINLTAGVYCAALESLINVSGCSAIEKTQRMLNGFCPHKVSAGQFSSLRVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_hseq>
-      <Hsp_midline>M PLLNPLLLALGLMALLLT VIALTCLGGFASP PVPPSTAL+ELIEELVNITQNQKAPLCNGSMVWSINLTAG+YCAALESLINVSGCSAIEKTQRML+GFCPHKVSAGQFSSL VRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>12</Hit_num>
-  <Hit_id>ref|XP_054968605.1|</Hit_id>
-  <Hit_def>interleukin-13 isoform X2 [Pan paniscus]</Hit_def>
-  <Hit_accession>XP_054968605</Hit_accession>
-  <Hit_len>169</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>284.263</Hsp_bit-score>
-      <Hsp_score>726</Hsp_score>
-      <Hsp_evalue>7.43926e-96</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>146</Hsp_query-to>
-      <Hsp_hit-from>25</Hsp_hit-from>
-      <Hsp_hit-to>169</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>142</Hsp_identity>
-      <Hsp_positive>144</Hsp_positive>
-      <Hsp_gaps>1</Hsp_gaps>
-      <Hsp_align-len>146</Hsp_align-len>
-      <Hsp_qseq>MHPLLNPLLLALGLMALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_qseq>
-      <Hsp_hseq>MRPLLNPLLLALGLMALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGVYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAG-FSSLHVRDTKIEVAQFVKDLLLHLKKLFREGRFN</Hsp_hseq>
-      <Hsp_midline>M PLLNPLLLALGLMALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAG+YCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAG FSSLHVRDTKIEVAQFVKDLLLHLKKLFREG+FN</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>13</Hit_num>
-  <Hit_id>ref|XP_055155430.1|</Hit_id>
-  <Hit_def>interleukin-13 isoform X1 [Symphalangus syndactylus]</Hit_def>
-  <Hit_accession>XP_055155430</Hit_accession>
-  <Hit_len>169</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>284.263</Hsp_bit-score>
-      <Hsp_score>726</Hsp_score>
-      <Hsp_evalue>7.77298e-96</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>146</Hsp_query-to>
-      <Hsp_hit-from>25</Hsp_hit-from>
-      <Hsp_hit-to>169</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>141</Hsp_identity>
-      <Hsp_positive>143</Hsp_positive>
-      <Hsp_gaps>1</Hsp_gaps>
-      <Hsp_align-len>146</Hsp_align-len>
-      <Hsp_qseq>MHPLLNPLLLALGLMALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_qseq>
-      <Hsp_hseq>MHPLLNPLL-ALGLMALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKTPLCNSSMVWSINLTAGVYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGRFN</Hsp_hseq>
-      <Hsp_midline>MHPLLNPLL ALGLMALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQK PLCN SMVWSINLTAG+YCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREG+FN</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>14</Hit_num>
-  <Hit_id>ref|XP_032012365.2|</Hit_id>
-  <Hit_def>interleukin-13 isoform X3 [Hylobates moloch]</Hit_def>
-  <Hit_accession>XP_032012365</Hit_accession>
-  <Hit_len>169</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>283.878</Hsp_bit-score>
-      <Hsp_score>725</Hsp_score>
-      <Hsp_evalue>1.08024e-95</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>146</Hsp_query-to>
-      <Hsp_hit-from>25</Hsp_hit-from>
-      <Hsp_hit-to>169</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>141</Hsp_identity>
-      <Hsp_positive>144</Hsp_positive>
-      <Hsp_gaps>1</Hsp_gaps>
-      <Hsp_align-len>146</Hsp_align-len>
-      <Hsp_qseq>MHPLLNPLLLALGLMALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_qseq>
-      <Hsp_hseq>MHPLLNPLLLALGLMALLLTTVIALTCLGGFASPGPVPPSTALKELIEELVNITQNQKTPLCNGSMVWSINLTAGVYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAG-FSSLHVRDTKIEVAQFVKDLLLHLKKLFREGRFN</Hsp_hseq>
-      <Hsp_midline>MHPLLNPLLLALGLMALLLTTVIALTCLGGFASPGPVPPSTAL+ELIEELVNITQNQK PLCNGSMVWSINLTAG+YCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAG FSSLHVRDTKIEVAQFVKDLLLHLKKLFREG+FN</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>15</Hit_num>
-  <Hit_id>ref|XP_054343352.1|</Hit_id>
-  <Hit_def>interleukin-13 isoform X2 [Pongo pygmaeus]</Hit_def>
-  <Hit_accession>XP_054343352</Hit_accession>
-  <Hit_len>169</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>283.878</Hsp_bit-score>
-      <Hsp_score>725</Hsp_score>
-      <Hsp_evalue>1.28751e-95</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>146</Hsp_query-to>
-      <Hsp_hit-from>25</Hsp_hit-from>
-      <Hsp_hit-to>169</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>141</Hsp_identity>
-      <Hsp_positive>144</Hsp_positive>
-      <Hsp_gaps>1</Hsp_gaps>
-      <Hsp_align-len>146</Hsp_align-len>
-      <Hsp_qseq>MHPLLNPLLLALGLMALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_qseq>
-      <Hsp_hseq>MRPLLNPLLLALGLMALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGVYCAALESLVNVSGCSAIEKTQRMLSGFCPHKVSAG-FSSLHVRDTKIEVAQFVKDLLLHLKKLFREGRFN</Hsp_hseq>
-      <Hsp_midline>M PLLNPLLLALGLMALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAG+YCAALESL+NVSGCSAIEKTQRMLSGFCPHKVSAG FSSLHVRDTKIEVAQFVKDLLLHLKKLFREG+FN</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>16</Hit_num>
-  <Hit_id>ref|XP_008012566.2|</Hit_id>
-  <Hit_def>interleukin-13 [Chlorocebus sabaeus]</Hit_def>
-  <Hit_accession>XP_008012566</Hit_accession>
-  <Hit_len>170</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>283.108</Hsp_bit-score>
-      <Hsp_score>723</Hsp_score>
-      <Hsp_evalue>2.74856e-95</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>146</Hsp_query-to>
-      <Hsp_hit-from>25</Hsp_hit-from>
-      <Hsp_hit-to>170</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>139</Hsp_identity>
-      <Hsp_positive>142</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>146</Hsp_align-len>
-      <Hsp_qseq>MHPLLNPLLLALGLMALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_qseq>
-      <Hsp_hseq>MRPLLNPLLLALGLMALLLTMVIALTCLGGFASPSPVPPSTALKELIEELVNITQNQKAPLCNGSMVWSINLTAGVYCAALESLINVSGCSAIEKTQRMLNGFCPHKVSAGQFSSLRVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_hseq>
-      <Hsp_midline>M PLLNPLLLALGLMALLLT VIALTCLGGFASP PVPPSTAL+ELIEELVNITQNQKAPLCNGSMVWSINLTAG+YCAALESLINVSGCSAIEKTQRML+GFCPHKVSAGQFSSL VRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>17</Hit_num>
-  <Hit_id>ref|XP_050648837.1|</Hit_id>
-  <Hit_def>interleukin-13 [Macaca thibetana thibetana]</Hit_def>
-  <Hit_accession>XP_050648837</Hit_accession>
-  <Hit_len>170</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>282.722</Hsp_bit-score>
-      <Hsp_score>722</Hsp_score>
-      <Hsp_evalue>3.27592e-95</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>146</Hsp_query-to>
-      <Hsp_hit-from>25</Hsp_hit-from>
-      <Hsp_hit-to>170</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>139</Hsp_identity>
-      <Hsp_positive>142</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>146</Hsp_align-len>
-      <Hsp_qseq>MHPLLNPLLLALGLMALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_qseq>
-      <Hsp_hseq>MRPLLNPLLLALGLMALLLTMVIALTCLGGFASPSPVPPSTALKELIEELVNITQNQKAPLCNGSMVWSINLTAGVYCAALESLINVSGCSAIEKTQRMLNGFCPHKVSAGQFSSLRVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_hseq>
-      <Hsp_midline>M PLLNPLLLALGLMALLLT VIALTCLGGFASP PVPPSTAL+ELIEELVNITQNQKAPLCNGSMVWSINLTAG+YCAALESLINVSGCSAIEKTQRML+GFCPHKVSAGQFSSL VRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>18</Hit_num>
-  <Hit_id>ref|XP_054411906.1|</Hit_id>
-  <Hit_def>interleukin-13 isoform X2 [Pongo abelii]</Hit_def>
-  <Hit_accession>XP_054411906</Hit_accession>
-  <Hit_len>169</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>282.722</Hsp_bit-score>
-      <Hsp_score>722</Hsp_score>
-      <Hsp_evalue>4.11885e-95</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>146</Hsp_query-to>
-      <Hsp_hit-from>25</Hsp_hit-from>
-      <Hsp_hit-to>169</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>141</Hsp_identity>
-      <Hsp_positive>143</Hsp_positive>
-      <Hsp_gaps>1</Hsp_gaps>
-      <Hsp_align-len>146</Hsp_align-len>
-      <Hsp_qseq>MHPLLNPLLLALGLMALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_qseq>
-      <Hsp_hseq>MRPLLNPLLLALGLMALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGVYCAALESLVNVSGCSAIEKTQRMLSGFCPHKVSAG-FSSLHVRDTKIEVAQFVKDLLLHLKKLFREGGFN</Hsp_hseq>
-      <Hsp_midline>M PLLNPLLLALGLMALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAG+YCAALESL+NVSGCSAIEKTQRMLSGFCPHKVSAG FSSLHVRDTKIEVAQFVKDLLLHLKKLFREG FN</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>19</Hit_num>
-  <Hit_id>ref|XP_005557788.2|</Hit_id>
-  <Hit_def>PREDICTED: interleukin-13 [Macaca fascicularis]</Hit_def>
-  <Hit_accession>XP_005557788</Hit_accession>
-  <Hit_len>170</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>280.796</Hsp_bit-score>
-      <Hsp_score>717</Hsp_score>
-      <Hsp_evalue>1.91589e-94</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>146</Hsp_query-to>
-      <Hsp_hit-from>25</Hsp_hit-from>
-      <Hsp_hit-to>170</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>137</Hsp_identity>
-      <Hsp_positive>141</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>146</Hsp_align-len>
-      <Hsp_qseq>MHPLLNPLLLALGLMALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_qseq>
-      <Hsp_hseq>MRPLLNPLLFALGLMALLLTMVIALTCLGGFASPSPVPPSTALKELIEELVNITQNQKAPLCNGSMVWSINLTAGVYCAALESLINVSGCSAIEKTQRMLNGFCPHKVSAGQFSSLRVRDTKIEVAQFVKDLLVHLKKLFREGQFN</Hsp_hseq>
-      <Hsp_midline>M PLLNPLL ALGLMALLLT VIALTCLGGFASP PVPPSTAL+ELIEELVNITQNQKAPLCNGSMVWSINLTAG+YCAALESLINVSGCSAIEKTQRML+GFCPHKVSAGQFSSL VRDTKIEVAQFVKDLL+HLKKLFREGQFN</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>20</Hit_num>
-  <Hit_id>ref|XP_018883794.2|</Hit_id>
-  <Hit_def>interleukin-13 isoform X3 [Gorilla gorilla gorilla]</Hit_def>
-  <Hit_accession>XP_018883794</Hit_accession>
-  <Hit_len>169</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>280.026</Hsp_bit-score>
-      <Hsp_score>715</Hsp_score>
-      <Hsp_evalue>4.07852e-94</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>146</Hsp_query-to>
-      <Hsp_hit-from>25</Hsp_hit-from>
-      <Hsp_hit-to>169</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>139</Hsp_identity>
-      <Hsp_positive>143</Hsp_positive>
-      <Hsp_gaps>1</Hsp_gaps>
-      <Hsp_align-len>146</Hsp_align-len>
-      <Hsp_qseq>MHPLLNPLLLALGLMALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_qseq>
-      <Hsp_hseq>IHPLLNPLLLALGLMALFLTTVIALTCLGSFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGVYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAG-FSSLHVRDTKIEVAQFVKNLLLHLKKLFREGRFN</Hsp_hseq>
-      <Hsp_midline>+HPLLNPLLLALGLMAL LTTVIALTCLG FASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAG+YCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAG FSSLHVRDTKIEVAQFVK+LLLHLKKLFREG+FN</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>21</Hit_num>
-  <Hit_id>ref|XP_055155431.1|</Hit_id>
-  <Hit_def>interleukin-13 isoform X2 [Symphalangus syndactylus]</Hit_def>
-  <Hit_accession>XP_055155431</Hit_accession>
-  <Hit_len>168</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>277.715</Hsp_bit-score>
-      <Hsp_score>709</Hsp_score>
-      <Hsp_evalue>3.61394e-93</Hsp_evalue>
-      <Hsp_query-from>1</Hsp_query-from>
-      <Hsp_query-to>146</Hsp_query-to>
-      <Hsp_hit-from>25</Hsp_hit-from>
-      <Hsp_hit-to>168</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>140</Hsp_identity>
-      <Hsp_positive>142</Hsp_positive>
-      <Hsp_gaps>2</Hsp_gaps>
-      <Hsp_align-len>146</Hsp_align-len>
-      <Hsp_qseq>MHPLLNPLLLALGLMALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_qseq>
-      <Hsp_hseq>MHPLLNPLL-ALGLMALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKTPLCNSSMVWSINLTAGVYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAG-FSSLHVRDTKIEVAQFVKDLLLHLKKLFREGRFN</Hsp_hseq>
-      <Hsp_midline>MHPLLNPLL ALGLMALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQK PLCN SMVWSINLTAG+YCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAG FSSLHVRDTKIEVAQFVKDLLLHLKKLFREG+FN</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>22</Hit_num>
-  <Hit_id>gb|AAH96141.2|</Hit_id>
-  <Hit_def>Interleukin 13 [Homo sapiens]</Hit_def>
-  <Hit_accession>AAH96141</Hit_accession>
-  <Hit_len>145</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>272.322</Hsp_bit-score>
-      <Hsp_score>695</Hsp_score>
-      <Hsp_evalue>2.22341e-91</Hsp_evalue>
-      <Hsp_query-from>15</Hsp_query-from>
-      <Hsp_query-to>146</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>132</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>132</Hsp_identity>
-      <Hsp_positive>132</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>132</Hsp_align-len>
-      <Hsp_qseq>MALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_qseq>
-      <Hsp_hseq>MALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_hseq>
-      <Hsp_midline>MALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>23</Hit_num>
-  <Hit_id>gb|AAX36825.1|</Hit_id>
-  <Hit_def>interleukin 13, partial [synthetic construct] &gt;gb|AAX43177.1| interleukin 13, partial [synthetic construct]</Hit_def>
-  <Hit_accession>AAX36825</Hit_accession>
-  <Hit_len>133</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>270.781</Hsp_bit-score>
-      <Hsp_score>691</Hsp_score>
-      <Hsp_evalue>6.5868e-91</Hsp_evalue>
-      <Hsp_query-from>15</Hsp_query-from>
-      <Hsp_query-to>146</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>132</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>131</Hsp_identity>
-      <Hsp_positive>132</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>132</Hsp_align-len>
-      <Hsp_qseq>MALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_qseq>
-      <Hsp_hseq>MALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGRFN</Hsp_hseq>
-      <Hsp_midline>MALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREG+FN</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>24</Hit_num>
-  <Hit_id>pdb|3LB6|A</Hit_id>
-  <Hit_def>Chain A, Interleukin-13 [Homo sapiens] &gt;gb|AAX41548.1| interleukin 13 [synthetic construct] &gt;gb|AAA36107.1| interleukin 13 [Homo sapiens] &gt;gb|AAB01681.1| interleukin-13 precursor [Homo sapiens] &gt;gb|AAK53823.1| interleukin 13 [Homo sapiens] &gt;emb|CAA48824.1| NC30 [Homo sapiens]</Hit_def>
-  <Hit_accession>3LB6_A</Hit_accession>
-  <Hit_len>132</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>270.011</Hsp_bit-score>
-      <Hsp_score>689</Hsp_score>
-      <Hsp_evalue>9.66375e-91</Hsp_evalue>
-      <Hsp_query-from>15</Hsp_query-from>
-      <Hsp_query-to>146</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>132</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>131</Hsp_identity>
-      <Hsp_positive>132</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>132</Hsp_align-len>
-      <Hsp_qseq>MALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_qseq>
-      <Hsp_hseq>MALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGRFN</Hsp_hseq>
-      <Hsp_midline>MALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREG+FN</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>25</Hit_num>
-  <Hit_id>ref|NP_001008992.1|</Hit_id>
-  <Hit_def>interleukin-13 precursor [Pan troglodytes] &gt;sp|P61126.1| RecName: Full=Interleukin-13; Short=IL-13; Flags: Precursor [Pan troglodytes] &gt;gb|AAR32991.1| interleukin 13 [Pan troglodytes] &gt;gb|PNI50062.1| IL13 isoform 6 [Pan troglodytes]</Hit_def>
-  <Hit_accession>NP_001008992</Hit_accession>
+  <Hit_num>2</Hit_num>
+  <Hit_id>sp|P61126.1|</Hit_id>
+  <Hit_def>RecName: Full=Interleukin-13; Short=IL-13; Flags: Precursor [Pan troglodytes]</Hit_def>
+  <Hit_accession>P61126</Hit_accession>
   <Hit_len>132</Hit_len>
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>268.47</Hsp_bit-score>
       <Hsp_score>685</Hsp_score>
-      <Hsp_evalue>4.34637e-90</Hsp_evalue>
+      <Hsp_evalue>3.16043e-93</Hsp_evalue>
       <Hsp_query-from>15</Hsp_query-from>
       <Hsp_query-to>146</Hsp_query-to>
       <Hsp_hit-from>1</Hsp_hit-from>
@@ -725,241 +81,17 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>26</Hit_num>
-  <Hit_id>gb|AAC03535.1|</Hit_id>
-  <Hit_def>interleukin 13 precursor [Homo sapiens]</Hit_def>
-  <Hit_accession>AAC03535</Hit_accession>
-  <Hit_len>132</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>268.085</Hsp_bit-score>
-      <Hsp_score>684</Hsp_score>
-      <Hsp_evalue>5.29565e-90</Hsp_evalue>
-      <Hsp_query-from>15</Hsp_query-from>
-      <Hsp_query-to>146</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>132</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>130</Hsp_identity>
-      <Hsp_positive>131</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>132</Hsp_align-len>
-      <Hsp_qseq>MALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_qseq>
-      <Hsp_hseq>MALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLGGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGRFN</Hsp_hseq>
-      <Hsp_midline>MALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRML GFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREG+FN</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>27</Hit_num>
-  <Hit_id>gb|PNJ80165.1|</Hit_id>
-  <Hit_def>IL13 isoform 6 [Pongo abelii]</Hit_def>
-  <Hit_accession>PNJ80165</Hit_accession>
-  <Hit_len>132</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>268.085</Hsp_bit-score>
-      <Hsp_score>684</Hsp_score>
-      <Hsp_evalue>7.20067e-90</Hsp_evalue>
-      <Hsp_query-from>15</Hsp_query-from>
-      <Hsp_query-to>146</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>132</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>129</Hsp_identity>
-      <Hsp_positive>132</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>132</Hsp_align-len>
-      <Hsp_qseq>MALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_qseq>
-      <Hsp_hseq>MALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGVYCAALESLVNVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGRFN</Hsp_hseq>
-      <Hsp_midline>MALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAG+YCAALESL+NVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREG+FN</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>28</Hit_num>
-  <Hit_id>pdb|3LB6|B</Hit_id>
-  <Hit_def>Chain B, Interleukin-13 [Homo sapiens]</Hit_def>
-  <Hit_accession>3LB6_B</Hit_accession>
-  <Hit_len>132</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>267.7</Hsp_bit-score>
-      <Hsp_score>683</Hsp_score>
-      <Hsp_evalue>7.60684e-90</Hsp_evalue>
-      <Hsp_query-from>15</Hsp_query-from>
-      <Hsp_query-to>146</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>132</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>130</Hsp_identity>
-      <Hsp_positive>131</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>132</Hsp_align-len>
-      <Hsp_qseq>MALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_qseq>
-      <Hsp_hseq>MALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTXIEVAQFVKDLLLHLKKLFREGRFN</Hsp_hseq>
-      <Hsp_midline>MALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDT IEVAQFVKDLLLHLKKLFREG+FN</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>29</Hit_num>
-  <Hit_id>gb|AAX36380.1|</Hit_id>
-  <Hit_def>interleukin 13 [synthetic construct]</Hit_def>
-  <Hit_accession>AAX36380</Hit_accession>
-  <Hit_len>132</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>267.7</Hsp_bit-score>
-      <Hsp_score>683</Hsp_score>
-      <Hsp_evalue>9.57843e-90</Hsp_evalue>
-      <Hsp_query-from>15</Hsp_query-from>
-      <Hsp_query-to>146</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>132</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>130</Hsp_identity>
-      <Hsp_positive>131</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>132</Hsp_align-len>
-      <Hsp_qseq>MALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_qseq>
-      <Hsp_hseq>MALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFHEGRFN</Hsp_hseq>
-      <Hsp_midline>MALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLF EG+FN</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>30</Hit_num>
-  <Hit_id>gb|AWM95354.1|</Hit_id>
-  <Hit_def>interleukin 13 [Hylobates lar]</Hit_def>
-  <Hit_accession>AWM95354</Hit_accession>
-  <Hit_len>132</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>266.929</Hsp_bit-score>
-      <Hsp_score>681</Hsp_score>
-      <Hsp_evalue>1.99815e-89</Hsp_evalue>
-      <Hsp_query-from>15</Hsp_query-from>
-      <Hsp_query-to>146</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>132</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>129</Hsp_identity>
-      <Hsp_positive>131</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>132</Hsp_align-len>
-      <Hsp_qseq>MALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_qseq>
-      <Hsp_hseq>MALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKTPLCNGSMVWSINLTAGVYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGRFN</Hsp_hseq>
-      <Hsp_midline>MALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQK PLCNGSMVWSINLTAG+YCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREG+FN</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>31</Hit_num>
-  <Hit_id>gb|AWM95353.1|</Hit_id>
-  <Hit_def>interleukin 13 [Symphalangus syndactylus]</Hit_def>
-  <Hit_accession>AWM95353</Hit_accession>
-  <Hit_len>132</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>265.003</Hsp_bit-score>
-      <Hsp_score>676</Hsp_score>
-      <Hsp_evalue>1.05943e-88</Hsp_evalue>
-      <Hsp_query-from>15</Hsp_query-from>
-      <Hsp_query-to>146</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>132</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>128</Hsp_identity>
-      <Hsp_positive>130</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>132</Hsp_align-len>
-      <Hsp_qseq>MALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_qseq>
-      <Hsp_hseq>MALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKTPLCNSSMVWSINLTAGVYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGRFN</Hsp_hseq>
-      <Hsp_midline>MALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQK PLCN SMVWSINLTAG+YCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREG+FN</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>32</Hit_num>
-  <Hit_id>ref|NP_001162230.1|</Hit_id>
-  <Hit_def>interleukin-13 precursor [Papio anubis] &gt;gb|ABW96801.1| interleukin 13 (predicted) [Papio anubis]</Hit_def>
-  <Hit_accession>NP_001162230</Hit_accession>
-  <Hit_len>132</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>261.536</Hsp_bit-score>
-      <Hsp_score>667</Hsp_score>
-      <Hsp_evalue>2.52596e-87</Hsp_evalue>
-      <Hsp_query-from>15</Hsp_query-from>
-      <Hsp_query-to>146</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>132</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>127</Hsp_identity>
-      <Hsp_positive>129</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>132</Hsp_align-len>
-      <Hsp_qseq>MALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_qseq>
-      <Hsp_hseq>MALLLTMVIALTCLGGFASPSPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGVYCAALESLINVSGCSAIEKTQRMLNGFCPHKVSAGQFSSLRVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_hseq>
-      <Hsp_midline>MALLLT VIALTCLGGFASP PVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAG+YCAALESLINVSGCSAIEKTQRML+GFCPHKVSAGQFSSL VRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>33</Hit_num>
-  <Hit_id>gb|AAA83738.1|</Hit_id>
-  <Hit_def>interleukin 13 [Homo sapiens]</Hit_def>
-  <Hit_accession>AAA83738</Hit_accession>
-  <Hit_len>131</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>261.536</Hsp_bit-score>
-      <Hsp_score>667</Hsp_score>
-      <Hsp_evalue>2.7863e-87</Hsp_evalue>
-      <Hsp_query-from>15</Hsp_query-from>
-      <Hsp_query-to>146</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>131</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>129</Hsp_identity>
-      <Hsp_positive>130</Hsp_positive>
-      <Hsp_gaps>1</Hsp_gaps>
-      <Hsp_align-len>132</Hsp_align-len>
-      <Hsp_qseq>MALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_qseq>
-      <Hsp_hseq>MALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKRPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAG-FSSLHVRDTKIEVAQFVKDLLLHLKKLFREGRFN</Hsp_hseq>
-      <Hsp_midline>MALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQK PLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAG FSSLHVRDTKIEVAQFVKDLLLHLKKLFREG+FN</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>34</Hit_num>
-  <Hit_id>ref|NP_001292875.1|</Hit_id>
-  <Hit_def>interleukin-13 precursor [Cercocebus atys] &gt;sp|Q5I6E4.1| RecName: Full=Interleukin-13; Short=IL-13; Flags: Precursor [Macaca thibetana] &gt;gb|AAW33961.1| interleukin 13 precursor [Macaca thibetana] &gt;gb|ABG43106.1| interleukin 13 [Cercocebus atys] &gt;gb|AWM95355.1| interleukin 13 [Allenopithecus nigroviridis]</Hit_def>
-  <Hit_accession>NP_001292875</Hit_accession>
+  <Hit_num>3</Hit_num>
+  <Hit_id>sp|Q5I6E4.1|</Hit_id>
+  <Hit_def>RecName: Full=Interleukin-13; Short=IL-13; Flags: Precursor [Macaca thibetana]</Hit_def>
+  <Hit_accession>Q5I6E4</Hit_accession>
   <Hit_len>132</Hit_len>
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>260.381</Hsp_bit-score>
       <Hsp_score>664</Hsp_score>
-      <Hsp_evalue>7.48582e-87</Hsp_evalue>
+      <Hsp_evalue>5.44326e-90</Hsp_evalue>
       <Hsp_query-from>15</Hsp_query-from>
       <Hsp_query-to>146</Hsp_query-to>
       <Hsp_hit-from>1</Hsp_hit-from>
@@ -977,45 +109,17 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>35</Hit_num>
-  <Hit_id>gb|ABG75889.1|</Hit_id>
-  <Hit_def>IL13 [Macaca fascicularis]</Hit_def>
-  <Hit_accession>ABG75889</Hit_accession>
-  <Hit_len>132</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>259.225</Hsp_bit-score>
-      <Hsp_score>661</Hsp_score>
-      <Hsp_evalue>1.9235e-86</Hsp_evalue>
-      <Hsp_query-from>15</Hsp_query-from>
-      <Hsp_query-to>146</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>132</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>125</Hsp_identity>
-      <Hsp_positive>129</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>132</Hsp_align-len>
-      <Hsp_qseq>MALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_qseq>
-      <Hsp_hseq>MALLLTMVIALTCLGGFASPSPVPPSTALKELIEELVNITQNQKAPLCNGSMVWSINLTAGVYCAALESLINVSGCSAIEKTQRMLNGFCPHKVSAGQFSSLRVRDTKIEVAQFVKDLLVHLKKLFREGQFN</Hsp_hseq>
-      <Hsp_midline>MALLLT VIALTCLGGFASP PVPPSTAL+ELIEELVNITQNQKAPLCNGSMVWSINLTAG+YCAALESLINVSGCSAIEKTQRML+GFCPHKVSAGQFSSL VRDTKIEVAQFVKDLL+HLKKLFREGQFN</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>36</Hit_num>
-  <Hit_id>ref|NP_001028101.1|</Hit_id>
-  <Hit_def>interleukin-13 precursor [Macaca mulatta] &gt;sp|Q864V6.1| RecName: Full=Interleukin-13; Short=IL-13; Flags: Precursor [Macaca mulatta] &gt;gb|AAO89232.1| interleukin-13 [Macaca mulatta]</Hit_def>
-  <Hit_accession>NP_001028101</Hit_accession>
+  <Hit_num>4</Hit_num>
+  <Hit_id>sp|Q864V6.1|</Hit_id>
+  <Hit_def>RecName: Full=Interleukin-13; Short=IL-13; Flags: Precursor [Macaca mulatta]</Hit_def>
+  <Hit_accession>Q864V6</Hit_accession>
   <Hit_len>132</Hit_len>
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
       <Hsp_bit-score>256.914</Hsp_bit-score>
       <Hsp_score>655</Hsp_score>
-      <Hsp_evalue>1.54724e-85</Hsp_evalue>
+      <Hsp_evalue>1.12506e-88</Hsp_evalue>
       <Hsp_query-from>15</Hsp_query-from>
       <Hsp_query-to>146</Hsp_query-to>
       <Hsp_hit-from>1</Hsp_hit-from>
@@ -1033,402 +137,178 @@
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>37</Hit_num>
-  <Hit_id>ref|XP_005557788.3|</Hit_id>
-  <Hit_def>interleukin-13 [Macaca fascicularis] &gt;ref|XP_028704856.1| interleukin-13 isoform X2 [Macaca mulatta]</Hit_def>
-  <Hit_accession>XP_005557788</Hit_accession>
-  <Hit_len>170</Hit_len>
+  <Hit_num>5</Hit_num>
+  <Hit_id>sp|Q95J68.1|</Hit_id>
+  <Hit_def>RecName: Full=Interleukin-13; Short=IL-13; Flags: Precursor [Sus scrofa]</Hit_def>
+  <Hit_accession>Q95J68</Hit_accession>
+  <Hit_len>131</Hit_len>
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>250.366</Hsp_bit-score>
-      <Hsp_score>638</Hsp_score>
-      <Hsp_evalue>2.12739e-82</Hsp_evalue>
-      <Hsp_query-from>20</Hsp_query-from>
-      <Hsp_query-to>146</Hsp_query-to>
-      <Hsp_hit-from>44</Hsp_hit-from>
-      <Hsp_hit-to>170</Hsp_hit-to>
+      <Hsp_bit-score>201.06</Hsp_bit-score>
+      <Hsp_score>510</Hsp_score>
+      <Hsp_evalue>1.60294e-66</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>143</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
       <Hsp_query-frame>0</Hsp_query-frame>
       <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>120</Hsp_identity>
-      <Hsp_positive>124</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>127</Hsp_align-len>
-      <Hsp_qseq>TTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_qseq>
-      <Hsp_hseq>TMVIALTCLGGFASPSPVPPSTALKELIEELVNITQNQKAPLCNGSMVWSINLTAGVYCAALESLINVSGCSAIEKTQRMLNGFCPHKVSAGQFSSLRVRDTKIEVAQFVKDLLVHLKKLFREGQFN</Hsp_hseq>
-      <Hsp_midline>T VIALTCLGGFASP PVPPSTAL+ELIEELVNITQNQKAPLCNGSMVWSINLTAG+YCAALESLINVSGCSAIEKTQRML+GFCPHKVSAGQFSSL VRDTKIEVAQFVKDLL+HLKKLFREGQFN</Hsp_midline>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>MALLLTTVIALTCLGGFASPGPVPP-STALRELIEELVNITQNQKAPLCNGSMVWSINLTAGM-YCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREG</Hsp_qseq>
+      <Hsp_hseq>MALWLTLVIALTCFGGLASPGPVPPHSTALKELIEELVNITQNQKTPLCNGSMVWSVNLTTSMQYCAALESLINISDCSAIQKTQRMLSALCSHKPPSEQVPGKHIRDTKIEVAQFVKDLLKHLRMIFRHG</Hsp_hseq>
+      <Hsp_midline>MAL LT VIALTC GG ASPGPVPP STAL+ELIEELVNITQNQK PLCNGSMVWS+NLT  M YCAALESLIN+S CSAI+KTQRMLS  C HK  + Q    H+RDTKIEVAQFVKDLL HL+ +FR G</Hsp_midline>
     </Hsp>
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>38</Hit_num>
-  <Hit_id>ref|XP_012306203.1|</Hit_id>
-  <Hit_def>interleukin-13 [Aotus nancymaae]</Hit_def>
-  <Hit_accession>XP_012306203</Hit_accession>
+  <Hit_num>6</Hit_num>
+  <Hit_id>sp|Q9XSV9.2|</Hit_id>
+  <Hit_def>RecName: Full=Interleukin-13; Short=IL-13; Flags: Precursor [Bos taurus]</Hit_def>
+  <Hit_accession>Q9XSV9</Hit_accession>
   <Hit_len>132</Hit_len>
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>246.514</Hsp_bit-score>
-      <Hsp_score>628</Hsp_score>
-      <Hsp_evalue>2.00407e-81</Hsp_evalue>
+      <Hsp_bit-score>201.06</Hsp_bit-score>
+      <Hsp_score>510</Hsp_score>
+      <Hsp_evalue>1.78799e-66</Hsp_evalue>
       <Hsp_query-from>15</Hsp_query-from>
       <Hsp_query-to>146</Hsp_query-to>
       <Hsp_hit-from>1</Hsp_hit-from>
       <Hsp_hit-to>132</Hsp_hit-to>
       <Hsp_query-frame>0</Hsp_query-frame>
       <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>119</Hsp_identity>
-      <Hsp_positive>125</Hsp_positive>
+      <Hsp_identity>93</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
       <Hsp_gaps>0</Hsp_gaps>
       <Hsp_align-len>132</Hsp_align-len>
       <Hsp_qseq>MALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_qseq>
-      <Hsp_hseq>MALWLTMVIALTCLGGLASPGPVPPYTALKELIEELVNITQNQKAPLCNGSMVWSINMTAGVYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLLVRDTKIEVAQFVKDLLRHLRKLFHQGKFN</Hsp_hseq>
-      <Hsp_midline>MAL LT VIALTCLGG ASPGPVPP TAL+ELIEELVNITQNQKAPLCNGSMVWSIN+TAG+YCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSL VRDTKIEVAQFVKDLL HL+KLF +G+FN</Hsp_midline>
+      <Hsp_hseq>MALLLTAVIVLICFGGLTSPSPVPSATALKELIEELVNITQNQKVPLCNGSMVWSLNLTSSMYCAALDSLISISNCSVIQRTKRMLNALCPHKPSAKQVSSEYVRDTKIEVAQFLKDLLRHSRIVFRNERFN</Hsp_hseq>
+      <Hsp_midline>MALLLT VI L C GG  SP PVP +TAL+ELIEELVNITQNQK PLCNGSMVWS+NLT+ MYCAAL+SLI++S CS I++T+RML+  CPHK SA Q SS +VRDTKIEVAQF+KDLL H + +FR  +FN</Hsp_midline>
     </Hsp>
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>39</Hit_num>
-  <Hit_id>gb|AWM95360.1|</Hit_id>
-  <Hit_def>interleukin 13 [Lagothrix lagotricha]</Hit_def>
-  <Hit_accession>AWM95360</Hit_accession>
-  <Hit_len>132</Hit_len>
+  <Hit_num>7</Hit_num>
+  <Hit_id>sp|Q865W5.1|</Hit_id>
+  <Hit_def>RecName: Full=Interleukin-13; Short=IL-13; Flags: Precursor [Camelus bactrianus] &gt;sp|Q865X3.1| RecName: Full=Interleukin-13; Short=IL-13; Flags: Precursor [Lama glama]</Hit_def>
+  <Hit_accession>Q865W5</Hit_accession>
+  <Hit_len>136</Hit_len>
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>245.743</Hsp_bit-score>
-      <Hsp_score>626</Hsp_score>
-      <Hsp_evalue>3.87079e-81</Hsp_evalue>
+      <Hsp_bit-score>192.971</Hsp_bit-score>
+      <Hsp_score>489</Hsp_score>
+      <Hsp_evalue>2.3133e-63</Hsp_evalue>
       <Hsp_query-from>15</Hsp_query-from>
       <Hsp_query-to>146</Hsp_query-to>
       <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_hit-to>131</Hsp_hit-to>
       <Hsp_query-frame>0</Hsp_query-frame>
       <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>118</Hsp_identity>
-      <Hsp_positive>125</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>132</Hsp_align-len>
-      <Hsp_qseq>MALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_qseq>
-      <Hsp_hseq>MALWLTMVIALTCLGGLASPGPMPPYTALKELIEELVNITQNQKAPLCNGSMVWSINMTAGVYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLFVRDTKIEVAQFVKDLLRHLRKLFHQGKFN</Hsp_hseq>
-      <Hsp_midline>MAL LT VIALTCLGG ASPGP+PP TAL+ELIEELVNITQNQKAPLCNGSMVWSIN+TAG+YCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSL VRDTKIEVAQFVKDLL HL+KLF +G+FN</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>40</Hit_num>
-  <Hit_id>ref|NP_001254683.1|</Hit_id>
-  <Hit_def>interleukin-13 precursor [Callithrix jacchus] &gt;gb|ABZ10523.1| interleukin 13 (predicted) [Callithrix jacchus] &gt;dbj|BAJ10869.1| interleukin 13 [Callithrix jacchus]</Hit_def>
-  <Hit_accession>NP_001254683</Hit_accession>
-  <Hit_len>132</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>245.743</Hsp_bit-score>
-      <Hsp_score>626</Hsp_score>
-      <Hsp_evalue>4.17977e-81</Hsp_evalue>
-      <Hsp_query-from>15</Hsp_query-from>
-      <Hsp_query-to>146</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>132</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>119</Hsp_identity>
-      <Hsp_positive>124</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>132</Hsp_align-len>
-      <Hsp_qseq>MALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_qseq>
-      <Hsp_hseq>MALWLTMVIALTCLGGLASPGPVPPYTALKELIEELVNITQNQKAPLCNGSMVWSINMTAGVYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLLVRDTKIEVAQFVKDLLRHLRKLFHQGTFN</Hsp_hseq>
-      <Hsp_midline>MAL LT VIALTCLGG ASPGPVPP TAL+ELIEELVNITQNQKAPLCNGSMVWSIN+TAG+YCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSL VRDTKIEVAQFVKDLL HL+KLF +G FN</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>41</Hit_num>
-  <Hit_id>gb|AWM95359.1|</Hit_id>
-  <Hit_def>interleukin 13 [Pithecia pithecia]</Hit_def>
-  <Hit_accession>AWM95359</Hit_accession>
-  <Hit_len>132</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>244.588</Hsp_bit-score>
-      <Hsp_score>623</Hsp_score>
-      <Hsp_evalue>1.33725e-80</Hsp_evalue>
-      <Hsp_query-from>15</Hsp_query-from>
-      <Hsp_query-to>146</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>132</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>118</Hsp_identity>
-      <Hsp_positive>124</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>132</Hsp_align-len>
-      <Hsp_qseq>MALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_qseq>
-      <Hsp_hseq>MALWLTMVIALTCLSGLASPGPVPPYTALKELIEELVNITQNQKAPLCNGSMVWSINMTAGVYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLLVRDTKIEVAQFVKDLLRHLRKLFHQGKFN</Hsp_hseq>
-      <Hsp_midline>MAL LT VIALTCL G ASPGPVPP TAL+ELIEELVNITQNQKAPLCNGSMVWSIN+TAG+YCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSL VRDTKIEVAQFVKDLL HL+KLF +G+FN</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>42</Hit_num>
-  <Hit_id>ref|XP_017387939.1|</Hit_id>
-  <Hit_def>interleukin-13 isoform X1 [Cebus imitator]</Hit_def>
-  <Hit_accession>XP_017387939</Hit_accession>
-  <Hit_len>132</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>241.891</Hsp_bit-score>
-      <Hsp_score>616</Hsp_score>
-      <Hsp_evalue>1.64928e-79</Hsp_evalue>
-      <Hsp_query-from>15</Hsp_query-from>
-      <Hsp_query-to>146</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>132</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>117</Hsp_identity>
-      <Hsp_positive>124</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>132</Hsp_align-len>
-      <Hsp_qseq>MALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_qseq>
-      <Hsp_hseq>MALWLTMVIALTCLGGLASPGPVPPYTALKELIEELVNITQNQKAPLCNGSMVWSINMTAGVYCAALESLINVSRCSAIEKTQRMLSGFCPHKVSAGQFSSLLVQDTKIEVAQFVKDLLRHLRKLFHQGKFN</Hsp_hseq>
-      <Hsp_midline>MAL LT VIALTCLGG ASPGPVPP TAL+ELIEELVNITQNQKAPLCNGSMVWSIN+TAG+YCAALESLINVS CSAIEKTQRMLSGFCPHKVSAGQFSSL V+DTKIEVAQFVKDLL HL+KLF +G+FN</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>43</Hit_num>
-  <Hit_id>gb|ACB21285.1|</Hit_id>
-  <Hit_def>interleukin 13 (predicted) [Plecturocebus moloch] &gt;gb|AWM95358.1| interleukin 13 [Plecturocebus moloch]</Hit_def>
-  <Hit_accession>ACB21285</Hit_accession>
-  <Hit_len>132</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>241.891</Hsp_bit-score>
-      <Hsp_score>616</Hsp_score>
-      <Hsp_evalue>1.74228e-79</Hsp_evalue>
-      <Hsp_query-from>15</Hsp_query-from>
-      <Hsp_query-to>146</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>132</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>117</Hsp_identity>
-      <Hsp_positive>124</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>132</Hsp_align-len>
-      <Hsp_qseq>MALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_qseq>
-      <Hsp_hseq>MALWLTMVIALTCLGGLASPGPVPHYTALKELIEELVNITQNQKAPLCNGSMVWSINMTAGVYCAALESLINMSGCSAIEKTQRMLSGFCPHKVSAGQFSSLLVRDTKIEVAQFVKDLLRHLRKLFHQGKFN</Hsp_hseq>
-      <Hsp_midline>MAL LT VIALTCLGG ASPGPVP  TAL+ELIEELVNITQNQKAPLCNGSMVWSIN+TAG+YCAALESLIN+SGCSAIEKTQRMLSGFCPHKVSAGQFSSL VRDTKIEVAQFVKDLL HL+KLF +G+FN</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>44</Hit_num>
-  <Hit_id>gb|AWM95357.1|</Hit_id>
-  <Hit_def>interleukin 13 [Saguinus labiatus]</Hit_def>
-  <Hit_accession>AWM95357</Hit_accession>
-  <Hit_len>132</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>239.58</Hsp_bit-score>
-      <Hsp_score>610</Hsp_score>
-      <Hsp_evalue>1.11249e-78</Hsp_evalue>
-      <Hsp_query-from>15</Hsp_query-from>
-      <Hsp_query-to>146</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>132</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>116</Hsp_identity>
-      <Hsp_positive>121</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>132</Hsp_align-len>
-      <Hsp_qseq>MALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_qseq>
-      <Hsp_hseq>MALWLTMVIALTCLGGLASPGPVPPYTALKELIEELVNITQNQVAPLCNGSMAWSINMTTGVYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLLVRDTKIEVAQFVKDLLRHLRKLFHQGTFN</Hsp_hseq>
-      <Hsp_midline>MAL LT VIALTCLGG ASPGPVPP TAL+ELIEELVNITQNQ APLCNGSM WSIN+T G+YCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSL VRDTKIEVAQFVKDLL HL+KLF +G FN</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>45</Hit_num>
-  <Hit_id>ref|NP_001292821.1|</Hit_id>
-  <Hit_def>interleukin-13 precursor [Macaca nemestrina] &gt;gb|ABG43107.1| interleukin 13 [Macaca nemestrina]</Hit_def>
-  <Hit_accession>NP_001292821</Hit_accession>
-  <Hit_len>132</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>237.269</Hsp_bit-score>
-      <Hsp_score>604</Hsp_score>
-      <Hsp_evalue>1.02014e-77</Hsp_evalue>
-      <Hsp_query-from>15</Hsp_query-from>
-      <Hsp_query-to>146</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>132</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>125</Hsp_identity>
-      <Hsp_positive>128</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>132</Hsp_align-len>
-      <Hsp_qseq>MALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_qseq>
-      <Hsp_hseq>MALLLTMVIALTCLGGFASPSPVPPSTALKELIEELVNITQNQKAPLCNGSMVWSINLTAGVYCAALESLINVSGCSAIEKTQRMLNGFCPHKVSAGQFSSLRVRDTKIEVAQFVKDLLLRLKKLFREGQFN</Hsp_hseq>
-      <Hsp_midline>MALLLT VIALTCLGGFASP PVPPSTAL+ELIEELVNITQNQKAPLCNGSMVWSINLTAG+YCAALESLINVSGCSAIEKTQRML+GFCPHKVSAGQFSSL VRDTKIEVAQFVKDLLL LKKLFREGQFN</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>46</Hit_num>
-  <Hit_id>pdb|1IJZ|A</Hit_id>
-  <Hit_def>Chain A, INTERLEUKIN-13 [Homo sapiens] &gt;pdb|1IK0|A Chain A, INTERLEUKIN-13 [Homo sapiens] &gt;pdb|3G6D|A Chain A, Interleukin-13 [Homo sapiens] &gt;pdb|3L5W|I Chain I, Interleukin-13 [Homo sapiens] &gt;pdb|3L5W|J Chain J, Interleukin-13 [Homo sapiens] &gt;pdb|3L5X|A Chain A, Interleukin-13 [Homo sapiens] &gt;pdb|4PS4|A Chain A, Interleukin-13 [Homo sapiens]</Hit_def>
-  <Hit_accession>1IJZ_A</Hit_accession>
-  <Hit_len>113</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>232.646</Hsp_bit-score>
-      <Hsp_score>592</Hsp_score>
-      <Hsp_evalue>3.93327e-76</Hsp_evalue>
-      <Hsp_query-from>35</Hsp_query-from>
-      <Hsp_query-to>146</Hsp_query-to>
-      <Hsp_hit-from>2</Hsp_hit-from>
-      <Hsp_hit-to>113</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>111</Hsp_identity>
-      <Hsp_positive>112</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>112</Hsp_align-len>
-      <Hsp_qseq>GPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_qseq>
-      <Hsp_hseq>GPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGRFN</Hsp_hseq>
-      <Hsp_midline>GPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREG+FN</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>47</Hit_num>
-  <Hit_id>pdb|4I77|Z</Hit_id>
-  <Hit_def>Chain Z, Interleukin-13 [Homo sapiens] &gt;pdb|5L6Y|C Chain C, Interleukin-13 [Homo sapiens]</Hit_def>
-  <Hit_accession>4I77_Z</Hit_accession>
-  <Hit_len>112</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>232.646</Hsp_bit-score>
-      <Hsp_score>592</Hsp_score>
-      <Hsp_evalue>4.02168e-76</Hsp_evalue>
-      <Hsp_query-from>35</Hsp_query-from>
-      <Hsp_query-to>146</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>112</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>111</Hsp_identity>
-      <Hsp_positive>112</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>112</Hsp_align-len>
-      <Hsp_qseq>GPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_qseq>
-      <Hsp_hseq>GPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGRFN</Hsp_hseq>
-      <Hsp_midline>GPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREG+FN</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>48</Hit_num>
-  <Hit_id>pdb|1GA3|A</Hit_id>
-  <Hit_def>Chain A, Interleukin-13 [Homo sapiens]</Hit_def>
-  <Hit_accession>1GA3_A</Hit_accession>
-  <Hit_len>113</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>232.646</Hsp_bit-score>
-      <Hsp_score>592</Hsp_score>
-      <Hsp_evalue>4.15508e-76</Hsp_evalue>
-      <Hsp_query-from>35</Hsp_query-from>
-      <Hsp_query-to>146</Hsp_query-to>
-      <Hsp_hit-from>2</Hsp_hit-from>
-      <Hsp_hit-to>113</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>111</Hsp_identity>
-      <Hsp_positive>112</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>112</Hsp_align-len>
-      <Hsp_qseq>GPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_qseq>
-      <Hsp_hseq>GPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGRFN</Hsp_hseq>
-      <Hsp_midline>GPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREG+FN</Hsp_midline>
-    </Hsp>
-  </Hit_hsps>
-</Hit>
-<Hit>
-  <Hit_num>49</Hit_num>
-  <Hit_id>pdb|3BPO|A</Hit_id>
-  <Hit_def>Chain A, Interleukin 13 [Homo sapiens]</Hit_def>
-  <Hit_accession>3BPO_A</Hit_accession>
-  <Hit_len>127</Hit_len>
-  <Hit_hsps>
-    <Hsp>
-      <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>232.261</Hsp_bit-score>
-      <Hsp_score>591</Hsp_score>
-      <Hsp_evalue>7.42824e-76</Hsp_evalue>
-      <Hsp_query-from>34</Hsp_query-from>
-      <Hsp_query-to>146</Hsp_query-to>
-      <Hsp_hit-from>1</Hsp_hit-from>
-      <Hsp_hit-to>114</Hsp_hit-to>
-      <Hsp_query-frame>0</Hsp_query-frame>
-      <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>113</Hsp_identity>
-      <Hsp_positive>113</Hsp_positive>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
       <Hsp_gaps>1</Hsp_gaps>
-      <Hsp_align-len>114</Hsp_align-len>
-      <Hsp_qseq>PGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLT-AGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_qseq>
-      <Hsp_hseq>PGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_hseq>
-      <Hsp_midline>PGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLT AGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_midline>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>MALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_qseq>
+      <Hsp_hseq>MALWLTVVIAFTCIGGLASPVPTPSPKALKELIEELVNITQNQKAPLCNGSMVWSINLTTSMYCAARESLINITNCSVIQRTQRMLNALCPHKLSA-KVSSEHVRDTKIEVTQFIKTLLQHSRNVFHYRSFN</Hsp_hseq>
+      <Hsp_midline>MAL LT VIA TC+GG ASP P P   AL+ELIEELVNITQNQKAPLCNGSMVWSINLT  MYCAA ESLIN++ CS I++TQRML+  CPHK+SA + SS HVRDTKIEV QF+K LL H + +F    FN</Hsp_midline>
     </Hsp>
   </Hit_hsps>
 </Hit>
 <Hit>
-  <Hit_num>50</Hit_num>
-  <Hit_id>ref|XP_009447762.1|</Hit_id>
-  <Hit_def>interleukin-13 isoform X1 [Pan troglodytes]</Hit_def>
-  <Hit_accession>XP_009447762</Hit_accession>
-  <Hit_len>121</Hit_len>
+  <Hit_num>8</Hit_num>
+  <Hit_id>sp|Q9N0W9.1|</Hit_id>
+  <Hit_def>RecName: Full=Interleukin-13; Short=IL-13; Flags: Precursor [Canis lupus familiaris]</Hit_def>
+  <Hit_accession>Q9N0W9</Hit_accession>
+  <Hit_len>131</Hit_len>
   <Hit_hsps>
     <Hsp>
       <Hsp_num>1</Hsp_num>
-      <Hsp_bit-score>231.876</Hsp_bit-score>
-      <Hsp_score>590</Hsp_score>
-      <Hsp_evalue>9.34836e-76</Hsp_evalue>
-      <Hsp_query-from>32</Hsp_query-from>
-      <Hsp_query-to>146</Hsp_query-to>
-      <Hsp_hit-from>7</Hsp_hit-from>
-      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_bit-score>191.815</Hsp_bit-score>
+      <Hsp_score>486</Hsp_score>
+      <Hsp_evalue>7.32911e-63</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>130</Hsp_hit-to>
       <Hsp_query-frame>0</Hsp_query-frame>
       <Hsp_hit-frame>0</Hsp_hit-frame>
-      <Hsp_identity>111</Hsp_identity>
-      <Hsp_positive>113</Hsp_positive>
-      <Hsp_gaps>0</Hsp_gaps>
-      <Hsp_align-len>115</Hsp_align-len>
-      <Hsp_qseq>ASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQFN</Hsp_qseq>
-      <Hsp_hseq>AETGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGVYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGRFN</Hsp_hseq>
-      <Hsp_midline>A  GPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAG+YCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREG+FN</Hsp_midline>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>MALLLTTVIALTCLGGFASPGPVPPSTALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQF</Hsp_qseq>
+      <Hsp_hseq>MALWLTVVIALTCLGGLASPSPVTPSPTLKELIEELVNITQNQ-ASLCNGSMVWSVNLTAGMYCAALESLINVSDCSAIQRTQRMLKALCSQKPAAGQISSERSRDTKIEVIQLVKNLLTYVRGVYRHGNF</Hsp_hseq>
+      <Hsp_midline>MAL LT VIALTCLGG ASP PV PS  L+ELIEELVNITQNQ A LCNGSMVWS+NLTAGMYCAALESLINVS CSAI++TQRML   C  K +AGQ SS   RDTKIEV Q VK+LL +++ ++R G F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>sp|P42203.1|</Hit_id>
+  <Hit_def>RecName: Full=Interleukin-13; Short=IL-13; AltName: Full=T-cell activation protein P600; Flags: Precursor [Rattus norvegicus]</Hit_def>
+  <Hit_accession>P42203</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.221</Hsp_bit-score>
+      <Hsp_score>391</Hsp_score>
+      <Hsp_evalue>1.62827e-48</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>144</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>MALLLTTVIALTCLGGFASPGPVPPST----ALRELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQ</Hsp_qseq>
+      <Hsp_hseq>MALWVTAVLALACLGGLATPGPVRRSTSPPVALRELIEELSNITQDQKTSLCNSSMVWSVDLTAGGFCAALESLTNISSCNAIHRTQRILNGLCNQKASDVASSP---PDTKIEVAQFISKLLNYSKQLFRYGH</Hsp_hseq>
+      <Hsp_midline>MAL +T V+AL CLGG A+PGPV  ST    ALRELIEEL NITQ+QK  LCN SMVWS++LTAG +CAALESL N+S C+AI +TQR+L+G C  K S    S     DTKIEVAQF+  LL + K+LFR G </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>sp|P20109.1|</Hit_id>
+  <Hit_def>RecName: Full=Interleukin-13; Short=IL-13; AltName: Full=T-cell activation protein P600; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>P20109</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.747</Hsp_bit-score>
+      <Hsp_score>369</Hsp_score>
+      <Hsp_evalue>4.14019e-45</Hsp_evalue>
+      <Hsp_query-from>15</Hsp_query-from>
+      <Hsp_query-to>145</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>131</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>MALLLTTVIALTCLGGFASPGPVPPSTAL----RELIEELVNITQNQKAPLCNGSMVWSINLTAGMYCAALESLINVSGCSAIEKTQRMLSGFCPHKVSAGQFSSLHVRDTKIEVAQFVKDLLLHLKKLFREGQF</Hsp_qseq>
+      <Hsp_hseq>MALWVTAVLALACLGGLAAPGPVPRSVSLPLTLKELIEELSNITQDQ-TPLCNGSMVWSVDLAAGGFCVALDSLTNISNCNAIYRTQRILHGLCNRKAPT-TVSSL--PDTKIEVAHFITKLLSYTKQLFRHGPF</Hsp_hseq>
+      <Hsp_midline>MAL +T V+AL CLGG A+PGPVP S +L    +ELIEEL NITQ+Q  PLCNGSMVWS++L AG +C AL+SL N+S C+AI +TQR+L G C  K      SSL   DTKIEVA F+  LL + K+LFR G F</Hsp_midline>
     </Hsp>
   </Hit_hsps>
 </Hit>
 </Iteration_hits>
   <Iteration_stat>
     <Statistics>
-      <Statistics_db-num>643699034</Statistics_db-num>
-      <Statistics_db-len>252159044543</Statistics_db-len>
+      <Statistics_db-num>482424</Statistics_db-num>
+      <Statistics_db-len>183355587</Statistics_db-len>
       <Statistics_hsp-len>0</Statistics_hsp-len>
       <Statistics_eff-space>0</Statistics_eff-space>
       <Statistics_kappa>0.041</Statistics_kappa>
